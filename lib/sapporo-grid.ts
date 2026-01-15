@@ -50,6 +50,53 @@ export function estimateSapporoCoordinate(address: string): { lat: number; lng: 
         };
     }
 
+    // 6. Fukuzumi Area (Toyohira)
+    // Base: Fukuzumi 1-jo 1-chome approx 43.0250, 141.4000 (Near Sapporo Dome)
+    const fukuzumiMatch = address.match(/福住(\d+)条(\d+)丁目/);
+    if (fukuzumiMatch) {
+        const jo = parseInt(fukuzumiMatch[1], 10);
+        const chome = parseInt(fukuzumiMatch[2], 10);
+        // Jo increases South, Chome increases East
+        return {
+            lat: 43.0250 - ((jo - 1) * 0.0020),
+            lng: 141.4000 + ((chome - 1) * 0.0025)
+        };
+    }
+
+    // 7. Oyachi Area (Atsubetsu)
+    // Looking for "Oyachi Higashi X-jo Y-chome" or "Oyachi Higashi X-Y-Z"
+    const oyachiMatch = address.match(/大谷地(東|西)(\d+)[-条](\d+)/);
+    if (oyachiMatch) {
+        const ew = oyachiMatch[1]; // Higashi / Nishi
+        const jo = parseInt(oyachiMatch[2], 10);
+        const chome = parseInt(oyachiMatch[3], 10);
+
+        // Base: Oyachi Station (Oyachi Higashi 3-jo 3-chome approx 43.028, 141.460)
+        // Higashi: East of Atsubetsu River?
+        // Let's rely on standard offset for now
+        const baseLat = 43.0280;
+        const baseLng = 141.4600;
+
+        // Approximate: Jo increases South? Chome increases East?
+        return {
+            lat: baseLat + (Math.random() * 0.005 - 0.0025), // Randomize slightly as Oyachi grid is complex
+            lng: baseLng + (Math.random() * 0.005 - 0.0025)
+        };
+    }
+
+    // 8. Atsubetsu Nishi
+    // Base: Atsubetsu Nishi 1-jo 1-chome approx 43.045, 141.450
+    const atsubetsuNishiMatch = address.match(/厚別西(\d+)条(\d+)丁目/);
+    if (atsubetsuNishiMatch) {
+        const jo = parseInt(atsubetsuNishiMatch[1], 10);
+        const chome = parseInt(atsubetsuNishiMatch[2], 10);
+        // Jo increases North, Chome increases East
+        return {
+            lat: 43.0450 + ((jo - 1) * 0.0020),
+            lng: 141.4500 + ((chome - 1) * 0.0025)
+        };
+    }
+
     // 3. Central Sapporo Logic (Kita/Minami/Odori + Nishi/Higashi)
     // Regex to capture grid coordinates
     // ... (rest of the existing logic)

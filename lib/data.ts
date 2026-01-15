@@ -1900,4 +1900,193 @@ export const cafes: Cafe[] = [
             en: ["Souffle pancakes", "Relaxing", "Large parking lot"]
         }
     },
+    // Phase 17: Work & Late Night (Shin-Sapporo / Oyachi)
+    {
+        id: "1401",
+        name: { ja: "Kaikatsu CLUB Sapporo Oyachi (快活CLUB 札幌大谷地店)", en: "Kaikatsu CLUB Sapporo Oyachi" },
+        area: { ja: "厚別・新札幌エリア", en: "Atsubetsu / Shin-Sapporo" },
+        address: { ja: "札幌市厚別区大谷地東2-1-7", en: "2-1-7, Oyachi-Higashi, Atsubetsu-ku, Sapporo" },
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Kaikatsu+CLUB+Sapporo+Oyachi",
+        open_hours: "24 Hours",
+        features: ["Wi-Fi", "Power", "Late Night", "Parking", "Coworking"],
+        description: {
+            ja: "24時間営業のシェアリングスペース。鍵付き個室やドリンクバーがあり、深夜の集中作業に最適。Wi-Fiも高速。",
+            en: "A 24-hour sharing space. Features lockable private rooms and a drink bar, perfect for late-night focused work. High-speed Wi-Fi available."
+        },
+        imageUrl: "https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        rating: { work_comfort: 5, coffee: 2, vibe: 2 },
+        kazesift_comment: {
+            ja: "カフェというより作業基地。周りも作業目的の人が多く、驚くほど集中できる。駐車場無料も嬉しい。",
+            en: "More of a work base than a cafe. Many others are there to work, making it surprisingly easy to focus. Free parking is a plus."
+        },
+        reviewHighlights: {
+            ja: ["集中できる", "Wi-Fiが速い", "個室が便利"],
+            en: ["Can focus", "Fast Wi-Fi", "Private rooms convenient"]
+        }
+    },
+    {
+        id: "1402",
+        name: { ja: "PRONTO Shin-Sapporo (プロント 新さっぽろ店)", en: "PRONTO Shin-Sapporo" },
+        area: { ja: "厚別・新札幌エリア", en: "Atsubetsu / Shin-Sapporo" },
+        address: { ja: "札幌市厚別区厚別中央2条5丁目6-2 デュオ1 2F", en: "Duo-1 2F, 6-2, Atsubetsu-Chuo 2-jo 5-chome, Atsubetsu-ku, Sapporo" },
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=PRONTO+Shin-Sapporo",
+        open_hours: "07:00 - 23:00",
+        features: ["Wi-Fi", "Power", "Late Night", "Morning", "Alcohol"],
+        description: {
+            ja: "新札幌駅直結のカフェ＆バー。昼はカフェ、夜は「キッサカバ」として営業。夜遅くまで電源・Wi-Fiが使える貴重なスポット。",
+            en: "A cafe & bar directly connected to Shin-Sapporo Station. Operates as a cafe by day and 'Kissakaba' by night. A valuable spot with power and Wi-Fi available until late."
+        },
+        imageUrl: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        rating: { work_comfort: 4, coffee: 3, vibe: 3 },
+        kazesift_comment: {
+            ja: "駅直結で雨に濡れずに行けるのが最高。夜は少し賑やかになるが、作業している人も意外と多い。",
+            en: "Being connected to the station means staying dry, which is great. Examples of people working there are surprisingly common even at night."
+        },
+        reviewHighlights: {
+            ja: ["駅近で便利", "コンセントがある", "夜遅くまで開いている"],
+            en: ["Convenient near station", "Has outlets", "Open late"]
+        }
+    },
+    {
+        id: "1403",
+        name: { ja: "Starbucks Coffee Shin-Sapporo Sunpiazza (スターバックスコーヒー 新さっぽろサンピアザ店)", en: "Starbucks Coffee Shin-Sapporo Sunpiazza" },
+        area: { ja: "厚別・新札幌エリア", en: "Atsubetsu / Shin-Sapporo" },
+        address: { ja: "札幌市厚別区厚別中央2条5丁目7-2 サンピアザ 2F", en: "Sunpiazza 2F, 7-2, Atsubetsu-Chuo 2-jo 5-chome, Atsubetsu-ku, Sapporo" },
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Starbucks+Shin-Sapporo+Sunpiazza",
+        open_hours: "07:30 - 22:00",
+        features: ["Wi-Fi", "Power", "Late Night", "Sweets", "Takeout"],
+        description: {
+            ja: "サンピアザ2階にあるスターバックス。カウンター席に電源があり、買い物ついでや仕事帰りの作業に便利。",
+            en: "Starbucks located on the 2nd floor of Sunpiazza. Counter seats have outlets, making it convenient for work after shopping or commuting."
+        },
+        imageUrl: "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        rating: { work_comfort: 3, coffee: 4, vibe: 3 },
+        kazesift_comment: {
+            ja: "安定のスタバクオリティ。混んでいることが多いが、席が確保できれば集中できる。",
+            en: "Stable Starbucks quality. Often crowded, but you can focus if you secure a seat."
+        },
+        reviewHighlights: {
+            ja: ["安定の味", "電源がある", "スタッフが親切"],
+            en: ["Consistent taste", "Has outlets", "Kind staff"]
+        }
+    },
+    {
+        id: "1404",
+        name: { ja: "Mister Donut Shin-Sapporo Duo (ミスタードーナツ 新さっぽろデュオショップ)", en: "Mister Donut Shin-Sapporo Duo" },
+        area: { ja: "厚別・新札幌エリア", en: "Atsubetsu / Shin-Sapporo" },
+        address: { ja: "札幌市厚別区厚別中央2条5丁目6-2 デュオ1 2F", en: "Duo-1 2F, 6-2, Atsubetsu-Chuo 2-jo 5-chome, Atsubetsu-ku, Sapporo" },
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Mister+Donut+Shin-Sapporo+Duo",
+        open_hours: "08:00 - 22:00",
+        features: ["Wi-Fi", "Late Night", "Sweets", "Refill Coffee"],
+        description: {
+            ja: "コーヒーおかわり自由が嬉しいミスタードーナツ。Wi-Fiも完備されており、カジュアルな作業や読書に使いやすい。",
+            en: "Mister Donut offering free coffee refills. Equipped with Wi-Fi, making it easy to use for casual work or reading."
+        },
+        imageUrl: "https://images.unsplash.com/photo-1514517220017-8ce97a34a7b6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        rating: { work_comfort: 3, coffee: 2, vibe: 3 },
+        kazesift_comment: {
+            ja: "コーヒーおかわり自由は作業のお供に最適。ドーナツをつまみながらリラックスして過ごせる。",
+            en: "Free coffee refills are perfect for working. Relax while snacking on donuts."
+        },
+        reviewHighlights: {
+            ja: ["おかわり自由", "ドーナツが好き", "気軽に入れる"],
+            en: ["Free refills", "Love donuts", "Casual atmosphere"]
+        }
+    },
+    // Phase 18: Influencer Recommendations (Toyohira / Atsubetsu)
+    {
+        id: "1501",
+        name: { ja: "CLAXON Coffee Roasters", en: "CLAXON Coffee Roasters" },
+        area: { ja: "豊平・平岸エリア", en: "Toyohira / Hiragishi" },
+        address: { ja: "札幌市豊平区福住1条1丁目14-18", en: "14-18, Fukuzumi 1-jo 1-chome, Toyohira-ku, Sapporo" },
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=CLAXON+Coffee+Roasters",
+        open_hours: "12:00 - 19:30",
+        holidayStr: { ja: "火曜・水曜", en: "Tue / Wed" },
+        features: ["Good Coffee", "Sweets", "Silence", "Hideaway"],
+        description: {
+            ja: "福住の住宅街に佇むスペシャルティコーヒー専門店。サイフォンで淹れるコーヒーと、和菓子やこだわりのスイーツのマリアージュを楽しめる。",
+            en: "A specialty coffee shop in the residential area of Fukuzumi. Enjoy the marriage of siphon-brewed coffee with Japanese sweets and carefully selected desserts."
+        },
+        imageUrl: "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        rating: { work_comfort: 2, coffee: 5, vibe: 5 },
+        kazesift_comment: {
+            ja: "コーヒー好きにはたまらない本格派。静かな空間で味に集中したい時におすすめ。",
+            en: "A must-visit for coffee lovers. Recommended when you want to focus on the flavor in a quiet space."
+        },
+        reviewHighlights: {
+            ja: ["コーヒーが美味しい", "サイフォン", "雰囲気が良い"],
+            en: ["Delicious coffee", "Siphon", "Good atmosphere"]
+        }
+    },
+    {
+        id: "1502",
+        name: { ja: "sofacoffee wool", en: "sofacoffee wool" },
+        area: { ja: "豊平・平岸エリア", en: "Toyohira / Hiragishi" },
+        address: { ja: "札幌市豊平区福住3条10丁目3-2", en: "3-2, Fukuzumi 3-jo 10-chome, Toyohira-ku, Sapporo" },
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=sofacoffee+wool",
+        open_hours: "09:00 - 18:00",
+        holidayStr: { ja: "水曜", en: "Wed" },
+        features: ["Instagrammable", "Sofa", "Sweets", "Spacious"],
+        description: {
+            ja: "白い空間にゆったりとしたソファが配置された、フォトジェニックなカフェ。元焼肉店をリノベーションした開放的な空間。",
+            en: "A photogenic cafe with spacious sofas in a white space. An open space renovated from a former yakiniku restaurant."
+        },
+        imageUrl: "https://images.unsplash.com/photo-1545622956-620584b868a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        rating: { work_comfort: 2, coffee: 3, vibe: 5 },
+        kazesift_comment: {
+            ja: "どの席も絵になるおしゃれ空間。ソファでくつろぎながら過ごす休日にぴったり。",
+            en: "A stylish space where every seat is picturesque. Perfect for a holiday spent relaxing on a sofa."
+        },
+        reviewHighlights: {
+            ja: ["白い空間", "ソファが快適", "おしゃれ"],
+            en: ["White space", "Comfortable sofas", "Stylish"]
+        }
+    },
+    {
+        id: "1503",
+        name: { ja: "totono cafe (トトノカフェ)", en: "totono cafe" },
+        area: { ja: "厚別・新札幌エリア", en: "Atsubetsu / Shin-Sapporo" },
+        address: { ja: "札幌市厚別区厚別中央1条6丁目3 BiVi新さっぽろ 2F", en: "BiVi Shin-Sapporo 2F, 6-3, Atsubetsu-Chuo 1-jo 6-chome, Atsubetsu-ku, Sapporo" },
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=totono+cafe",
+        open_hours: "11:00 - 23:00",
+        features: ["New Open", "Healthy", "Dinner", "Sweets"],
+        description: {
+            ja: "BiVi新さっぽろにオープンした話題のカフェ。身体に優しい「整う」メニューを提供。夜遅くまで営業しており、夜カフェとしても優秀。",
+            en: "A talked-about cafe opened in BiVi Shin-Sapporo. Offers 'totono (organizing)' menus that are good for the body. Open late, excellent as a night cafe."
+        },
+        imageUrl: "https://images.unsplash.com/photo-1466637574441-749b8f19452f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        rating: { work_comfort: 3, coffee: 3, vibe: 4 },
+        kazesift_comment: {
+            ja: "新スポットBiViの中にあって便利。健康的なご飯と、落ち着いた雰囲気のバランスが良い。",
+            en: "Conveniently located in the new spot BiVi. Good balance between healthy food and a calm atmosphere."
+        },
+        reviewHighlights: {
+            ja: ["ご飯が美味しい", "BiViの中", "夜カフェ"],
+            en: ["Delicious food", "Inside BiVi", "Night cafe"]
+        }
+    },
+    {
+        id: "1504",
+        name: { ja: "Cafe TONTON (カフェ トントン)", en: "Cafe TONTON" },
+        area: { ja: "厚別・新札幌エリア", en: "Atsubetsu / Shin-Sapporo" },
+        address: { ja: "札幌市厚別区厚別西2条2丁目3-5", en: "3-5, Atsubetsu-Nishi 2-jo 2-chome, Atsubetsu-ku, Sapporo" },
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Cafe+TONTON",
+        open_hours: "10:00 - 17:00",
+        holidayStr: { ja: "水曜・日曜・祝日", en: "Wed / Sun / Hol" },
+        features: ["Food", "Lunch", "Cozy", "Takeout"],
+        description: {
+            ja: "厚別西の住宅街にある、おにぎりとカフェのお店。手作りの優しい味と、アットホームな雰囲気が地元で愛されている。",
+            en: "A shop for rice balls and cafe in the residential area of Atsubetsu Nishi. Loved locally for its handmade gentle taste and homey atmosphere."
+        },
+        imageUrl: "https://images.unsplash.com/photo-1590740685764-4a49c4033b00?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        rating: { work_comfort: 1, coffee: 3, vibe: 4 },
+        kazesift_comment: {
+            ja: "カフェ飯も良いけど、専門店の「おにぎり」は格別。ほっこりしたい時におすすめ。",
+            en: "Cafe food is nice, but specialty 'onigiri' is exceptional. Recommended when you want to feel heartwarming."
+        },
+        reviewHighlights: {
+            ja: ["おにぎりが美味しい", "アットホーム", "ランチ"],
+            en: ["Delicious onigiri", "Homey", "Lunch"]
+        }
+    },
 ];
