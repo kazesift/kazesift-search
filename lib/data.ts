@@ -1807,4 +1807,97 @@ export const cafes: Cafe[] = [
             en: ["Delicious muffins", "Stylish interior", "Wide variety"]
         }
     },
+    {
+        id: "1201",
+        name: { ja: "Miyataya Coffee Renga-kan (宮田屋珈琲 レンガ館)", en: "Miyataya Coffee Renga-kan" },
+        area: { ja: "豊平・平岸エリア", en: "Toyohira / Hiragishi" },
+        address: { ja: "札幌市豊平区平岸4条1丁目4-4", en: "1-4-4, Hiragishi 4-jo 1-chome, Toyohira-ku, Sapporo" },
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Miyataya+Coffee+Renga-kan",
+        open_hours: "10:00 - 22:00",
+        features: ["Good Coffee", "Parking", "Vintage", "Late Night", "Classic"],
+        description: {
+            ja: "レンガ造りの倉庫を改装した、重厚感のある喫茶店。自家焙煎の香り高いコーヒーを、歴史ある空間でゆっくりと味わえます。",
+            en: "A cafe housed in a renovated brick warehouse with a profound atmosphere. Enjoy fragrant home-roasted coffee in a historic space."
+        },
+        imageUrl: "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        rating: { work_comfort: 3, coffee: 4, vibe: 5 },
+        kazesift_comment: {
+            ja: "夜遅くまで営業している貴重なカフェ。夜のレンガ倉庫は雰囲気抜群。",
+            en: "A valuable cafe open late at night. The brick warehouse at night has an outstanding atmosphere."
+        },
+        reviewHighlights: {
+            ja: ["レンガの雰囲気", "落ち着く", "シフォンケーキ"],
+            en: ["Brick atmosphere", "Relaxing", "Chiffon cake"]
+        }
+    },
+    {
+        id: "1202",
+        name: { ja: "Sapporo Coffee Kan Hiragishi (札幌珈琲館 平岸店)", en: "Sapporo Coffee Kan Hiragishi" },
+        area: { ja: "豊平・平岸エリア", en: "Toyohira / Hiragishi" },
+        address: { ja: "札幌市豊平区平岸2条6丁目2-27", en: "2-27, Hiragishi 2-jo 6-chome, Toyohira-ku, Sapporo" },
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Sapporo+Coffee+Kan+Hiragishi",
+        open_hours: "09:00 - 18:00",
+        features: ["Good Coffee", "Morning", "Vintage", "Classic", "Silence"],
+        description: {
+            ja: "軟石造りの元リンゴ選果場を利用した、札幌を代表するクラシックな喫茶店。炭火焙煎の深い味わいと、静謐な空気が魅力。",
+            en: "A classic coffee house representing Sapporo, located in a former apple sorting facility made of soft stone. Enjoy the deep flavor of charcoal roasted coffee and the serene atmosphere."
+        },
+        imageUrl: "https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        rating: { work_comfort: 2, coffee: 5, vibe: 5 },
+        kazesift_comment: {
+            ja: "歴史を感じる建物で過ごす時間は格別。読書や物思いに耽るのに最適。",
+            en: "Time spent in this historic building is exceptional. Perfect for reading or contemplation."
+        },
+        reviewHighlights: {
+            ja: ["建物が素敵", "コーヒーが濃い", "静か"],
+            en: ["Wonderful building", "Strong coffee", "Quiet"]
+        }
+    },
+    {
+        id: "1301",
+        name: { ja: "Fuwamochi-tei Honten (ふわもち邸 本店)", en: "Fuwamochi-tei Honten" },
+        area: { ja: "厚別・新札幌エリア", en: "Atsubetsu / Shin-Sapporo" },
+        address: { ja: "札幌市厚別区厚別中央2条2丁目3-3", en: "3-3, Atsubetsu-chuo 2-jo 2-chome, Atsubetsu-ku, Sapporo" },
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Fuwamochi-tei+Honten",
+        open_hours: "09:00 - 17:00",
+        holidayStr: { ja: "月曜・火曜", en: "Mon / Tue" },
+        features: ["Sweets", "Takeout", "Instagrammable", "Food"],
+        description: {
+            ja: "道産小麦にこだわったドーナツとベーグルの専門店。「ふわふわ」「もちもち」の食感は、札幌市民に愛され続ける味。",
+            en: "A specialty shop for donuts and bagels using Hokkaido wheat. The 'fluffy' and 'chewy' texture continues to be loved by Sapporo citizens."
+        },
+        imageUrl: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        rating: { work_comfort: 1, coffee: 3, vibe: 4 },
+        kazesift_comment: {
+            ja: "午後には売り切れることも多い人気店。2階のカフェスペースも隠れ家感があっておしゃれ。",
+            en: "A popular shop that often sells out in the afternoon. The cafe space on the 2nd floor is stylish and feels like a hideaway."
+        },
+        reviewHighlights: {
+            ja: ["ドーナツが美味しい", "種類がたくさん", "お土産に最適"],
+            en: ["Delicious donuts", "Many varieties", "Great for gifts"]
+        }
+    },
+    {
+        id: "1302",
+        name: { ja: "Hoshino Coffee Sapporo Atsubetsu (星乃珈琲店 札幌厚別店)", en: "Hoshino Coffee Sapporo Atsubetsu" },
+        area: { ja: "厚別・新札幌エリア", en: "Atsubetsu / Shin-Sapporo" },
+        address: { ja: "札幌市厚別区厚別南4-25-13", en: "4-25-13, Atsubetsu-minami, Atsubetsu-ku, Sapporo" },
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Hoshino+Coffee+Sapporo+Atsubetsu",
+        open_hours: "08:00 - 20:00",
+        features: ["Classic", "Meeting", "Parking", "Sweets", "Morning"],
+        description: {
+            ja: "ハンドドリップ珈琲とスフレパンケーキが名物の喫茶店チェーン。厚別店は落ち着いた空間で、打ち合わせや家族連れにも使いやすい。",
+            en: "A coffee shop chain famous for hand-drip coffee and souffle pancakes. The Atsubetsu store has a relaxed atmosphere, making it easy to use for meetings or with family."
+        },
+        imageUrl: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        rating: { work_comfort: 3, coffee: 3, vibe: 3 },
+        kazesift_comment: {
+            ja: "安定のクオリティと広めの席配置が嬉しい。駐車場も広く、車でのアクセスが便利。",
+            en: "Consistent quality and spacious seating are appreciated. The parking lot is large, making car access convenient."
+        },
+        reviewHighlights: {
+            ja: ["スフレパンケーキ", "落ち着く", "駐車場が広い"],
+            en: ["Souffle pancakes", "Relaxing", "Large parking lot"]
+        }
+    },
 ];
