@@ -2089,4 +2089,143 @@ export const cafes: Cafe[] = [
             en: ["Delicious onigiri", "Homey", "Lunch"]
         }
     },
+    // Phase 19: Yusuke's Work Spots (Threads Recommendation)
+    {
+        id: "1601",
+        name: { ja: "Komeda's Coffee Sapporo (Downtown Area)", en: "Komeda's Coffee Sapporo (Downtown Area)" }, // Generic entry or specific if known. Assuming Odori/Susukino based on context of "Downtown". Let's map to Odori Nishi 2 (likely)
+        area: { ja: "大通・狸小路エリア", en: "Odori / Tanukikoji" },
+        address: { ja: "札幌市中央区南1条西2丁目", en: "Minami 1-jo Nishi 2-chome, Chuo-ku, Sapporo" }, // Placeholder for generic downtown Komeda
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Komeda+Coffee+Sapporo+Odori",
+        open_hours: "07:00 - 23:00",
+        features: ["Wi-Fi", "Power", "Morning", "Sweets", "Safe"],
+        description: {
+            ja: "名古屋発祥の喫茶店チェーン。広めの席と安定したサービスで、PC作業での利用も多い。シロノワールなどのスイーツも人気。",
+            en: "Coffee shop chain from Nagoya. Often used for PC work due to spacious seats and stable service. Sweets like Shiro-Noir are also popular."
+        },
+        imageUrl: "https://images.unsplash.com/photo-1559305616-3a99c2d3d623?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        rating: { work_comfort: 4, coffee: 3, vibe: 3 },
+        kazesift_comment: {
+            ja: "甘いものを食べながら作業したい時に最適。席もしっかりしていて疲れにくい。",
+            en: "Perfect when you want to work while eating something sweet. Seats are firm and comfortable."
+        },
+        reviewHighlights: {
+            ja: ["シロノワール", "落ち着く", "モーニング"],
+            en: ["Shiro-Noir", "Relaxing", "Morning"]
+        }
+    },
+    {
+        id: "1602",
+        name: { ja: "Starbucks Coffee Sapporo Grand Hotel (スターバックスコーヒー 札幌グランドホテル店)", en: "Starbucks Coffee Sapporo Grand Hotel" },
+        area: { ja: "大通・狸小路エリア", en: "Odori / Tanukikoji" },
+        address: { ja: "札幌市中央区北1条西4丁目 札幌グランドホテル 1F", en: "Sapporo Grand Hotel 1F, Kita 1-jo Nishi 4-chome, Chuo-ku, Sapporo" },
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Starbucks+Sapporo+Grand+Hotel",
+        open_hours: "07:00 - 22:00",
+        features: ["Wi-Fi", "Power", "Classic", "Meeting", "Terrace"],
+        description: {
+            ja: "札幌グランドホテル1階にあるスターバックス。落ち着いた雰囲気で、ビジネス利用も多い。後ろを気にせず作業できる席配置が魅力。",
+            en: "Starbucks located on the 1st floor of Sapporo Grand Hotel. Has a calm atmosphere and is often used for business. Attractive seat layout allows working without worrying about people behind."
+        },
+        imageUrl: "https://images.unsplash.com/photo-1570535942484-fe6d6342825b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        rating: { work_comfort: 5, coffee: 4, vibe: 4 },
+        kazesift_comment: {
+            ja: "ホテルの落ち着きとスタバの利便性が融合。大人の作業スポットとして優秀。",
+            en: "Combines hotel calm with Starbucks convenience. Excellent as an adult work spot."
+        },
+        reviewHighlights: {
+            ja: ["落ち着いた雰囲気", "ホテル内", "集中できる"],
+            en: ["Calm atmosphere", "Inside hotel", "Can focus"]
+        }
+    },
+    {
+        id: "1603",
+        name: { ja: "Tully's Coffee Sapporo Chieria (タリーズコーヒー 札幌ちえりあ店)", en: "Tully's Coffee Sapporo Chieria" },
+        area: { ja: "その他エリア", en: "Other Area" }, // Miyanosawa is west end
+        address: { ja: "札幌市西区宮の沢1条1丁目1-10", en: "1-1-10, Miyanosawa 1-jo 1-chome, Nishi-ku, Sapporo" },
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Tully's+Coffee+Sapporo+Chieria",
+        open_hours: "09:00 - 20:00",
+        features: ["Wi-Fi", "Power", "Spacious", "Study"],
+        description: {
+            ja: "生涯学習センター「ちえりあ」内にあるタリーズ。広々とした空間と余裕のある席間隔で、視線を気にせず作業や読書に没頭できる。",
+            en: "Tully's located inside the lifelong learning center 'Chieria'. Spacious area and seat spacing allow you to immerse yourself in work or reading without worrying about gazes."
+        },
+        imageUrl: "https://images.unsplash.com/photo-1559496417-e7f25cb247f3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        rating: { work_comfort: 5, coffee: 3, vibe: 4 },
+        kazesift_comment: {
+            ja: "席の間隔が広いのが本当にありがたい。学習センター内なので、静かに集中したい時に。",
+            en: "Wide seat spacing is truly appreciated. Since it's inside a learning center, it's great when you want to focus quietly."
+        },
+        reviewHighlights: {
+            ja: ["席が広い", "静か", "勉強に良い"],
+            en: ["Spacious seats", "Quiet", "Good for studying"]
+        }
+    },
+    {
+        id: "1604",
+        name: { ja: "AOAO SAPPORO (Work & Coffee)", en: "AOAO SAPPORO (Work & Coffee)" },
+        area: { ja: "大通・狸小路エリア", en: "Odori / Tanukikoji" },
+        address: { ja: "札幌市中央区南2条西3丁目20 moyuk SAPPORO 4F-6F", en: "moyuk SAPPORO 4F-6F, Minami 2-jo Nishi 3-chome, Chuo-ku, Sapporo" },
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=AOAO+SAPPORO",
+        open_hours: "10:00 - 22:00",
+        features: ["Wi-Fi", "Power", "Good View", "Kid Friendly", "Late Night", "Coworking"], // Added Coworking
+        description: {
+            ja: "水族館「AOAO SAPPORO」内のコワーキングスペース。入館料は必要だが、電源付きテーブルやWi-Fi完備。ペンギンを見ながらの仕事は唯一無二の体験。",
+            en: "Coworking space inside the aquarium 'AOAO SAPPORO'. Admission fee required, but equipped with powered tables and Wi-Fi. Working while watching penguins is a unique experience."
+        },
+        imageUrl: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        rating: { work_comfort: 5, coffee: 3, vibe: 5 },
+        kazesift_comment: {
+            ja: "年パスを買って作業場にするのが賢い使い方。気分転換のレベルが段違い。",
+            en: "Buying an annual pass to use as a workplace is a smart move. The level of refreshment is on another level."
+        },
+        reviewHighlights: {
+            ja: ["水族館", "電源がある", "癒される"],
+            en: ["Aquarium", "Has outlets", "Relaxing"]
+        }
+    },
+    {
+        id: "1605",
+        name: { ja: "Sapporo Business HUB (札幌ビジネスHUB)", en: "Sapporo Business HUB" },
+        area: { ja: "豊平・平岸エリア", en: "Toyohira / Hiragishi" }, // Technially Higashi-Sapporo (close to Toyohira/Kikusui)
+        address: { ja: "札幌市白石区東札幌5条1丁目1-1", en: "1-1, Higashi-Sapporo 5-jo 1-chome, Shiroishi-ku, Sapporo" },
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Sapporo+Business+HUB",
+        open_hours: "09:00 - 22:00",
+        features: ["Wi-Fi", "Power", "Meeting", "Coworking", "Free"],
+        description: {
+            ja: "札幌コンベンションセンター近くの無料ビジネススペース。22時まで利用でき、Webミーティングも可能。穴場中の穴場。",
+            en: "Free business space near Sapporo Convention Center. Available until 22:00, Web meetings allowed. A hidden gem among hidden gems."
+        },
+        imageUrl: "https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        rating: { work_comfort: 5, coffee: 1, vibe: 2 },
+        kazesift_comment: {
+            ja: "無料でここまで環境が整っているのは驚き。コンベンションセンター利用時の前線基地として最適。",
+            en: "Ideally located as a frontline base when using the Convention Center. Surprisingly well-equipped for a free facility."
+        },
+        reviewHighlights: {
+            ja: ["無料", "Web会議OK", "22時まで"],
+            en: ["Free", "Web meeting OK", "Until 22:00"]
+        }
+    },
+    {
+        id: "1606",
+        name: { ja: "Sapporo Municipal Library (札幌市図書・情報館)", en: "Sapporo Municipal Library" },
+        area: { ja: "大通・狸小路エリア", en: "Odori / Tanukikoji" },
+        address: { ja: "札幌市中央区北1条西1丁目 札幌市民交流プラザ 1F-2F", en: "Sapporo Community Plaza 1F-2F, Kita 1-jo Nishi 1-chome, Chuo-ku, Sapporo" },
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Sapporo+Municipal+Library+Information+Center",
+        open_hours: "09:00 - 21:00",
+        features: ["Wi-Fi", "Power", "Study", "Silence", "Book Cafe"], // Not strictly cafe, but works
+        description: {
+            ja: "「仕事・くらし・アート」に特化した課題解決型図書館。電源付きの席が多く、資料も豊富でデザイン検討や企画出しに最適。会話可能なエリアもあり。",
+            en: "Problem-solving library specializing in 'Work, Life, Art'. Many seats with power, abundant materials, perfect for design considerations or planning. Conversation-allowed areas available."
+        },
+        imageUrl: "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        rating: { work_comfort: 5, coffee: 1, vibe: 4 },
+        kazesift_comment: {
+            ja: "図書館の静寂とコワーキングの機能性が合体。クリエイティブな作業が捗る最強の公共施設。",
+            en: "Combines library silence with working functionality. The ultimate public facility where creative work progresses."
+        },
+        reviewHighlights: {
+            ja: ["電源が多い", "資料が豊富", "おしゃれ"],
+            en: ["Many outlets", "Abundant materials", "Stylish"]
+        }
+    },
 ];

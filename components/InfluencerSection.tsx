@@ -60,9 +60,23 @@ export default function InfluencerSection() {
                                         Actually we can import cafes from data.ts safely. */}
                                     {/* For MVP, just a generic badge or count */}
                                     <span className="bg-orange-50 text-orange-700 px-2 py-1 rounded text-xs font-medium">
-                                        {influencer.recommendedCafeIds.length} Cafes Listed
+                                        {influencer.recommendations.length} Cafes Listed
                                     </span>
                                 </div>
+
+                                {influencer.recommendations.some(r => r.quote) && (
+                                    <div className="mt-3">
+                                        {influencer.recommendations.filter(r => r.quote).slice(0, 3).map((rec, i) => (
+                                            <div key={i} className="text-xs text-gray-500 italic mb-1 flex items-start gap-1">
+                                                <span className="text-[10px] bg-gray-100 px-1 rounded not-italic mt-0.5">Quote</span>
+                                                "{rec.quote?.[language]}"
+                                            </div>
+                                        ))}
+                                        {influencer.recommendations.filter(r => r.quote).length > 3 && (
+                                            <div className="text-xs text-gray-400 pl-1">...and more</div>
+                                        )}
+                                    </div>
+                                )}
                             </div>
                         </div>
                     ))}
