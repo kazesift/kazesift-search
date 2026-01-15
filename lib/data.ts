@@ -1710,5 +1710,101 @@ export const cafes: Cafe[] = [
             ja: ["ソフトクリーム", "おしゃれ", "ボトルドリンク"],
             en: ["Soft serve", "Stylish", "Bottle drinks"]
         }
-    }
+    },
+    {
+        id: "1101",
+        name: { ja: "Plantation (MORIHICO.)", en: "Plantation (MORIHICO.)" },
+        area: { ja: "菊水・白石エリア", en: "Kikusui / Shiroishi" },
+        address: { ja: "札幌市白石区菊水8条2丁目1-32", en: "1-32, Kikusui 8-jo 2-chome, Shiroishi-ku, Sapporo" },
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Plantation+Sapporo",
+        open_hours: "11:00 - 19:00",
+        holidayStr: { ja: "火曜日", en: "Tuesday" },
+        features: ["Good Coffee", "Parking", "Vintage", "Cozy", "Takeout"],
+        description: {
+            ja: "元ボイラー工場をリノベーションした、森彦系列のロースタリーカフェ。天井が高く開放的なインダストリアル空間で、極上のコーヒーを楽しめます。",
+            en: "A roastery cafe by Morihico, renovated from an old boiler factory. Enjoy exquisite coffee in an open industrial space with high ceilings."
+        },
+        imageUrl: "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        rating: { work_comfort: 4, coffee: 5, vibe: 5 },
+        kazesift_comment: {
+            ja: "このエリアに来たら外せない名店。2階席の雰囲気が抜群です。駐車場があるのも嬉しいポイント。",
+            en: "A must-visit in this area. The atmosphere on the 2nd floor is outstanding. Having parking is a big plus."
+        },
+        reviewHighlights: {
+            ja: ["リノベーションがおしゃれ", "コーヒーが美味しい", "空間が広い"],
+            en: ["Stylish renovation", "Delicious coffee", "Spacious"]
+        }
+    },
+    {
+        id: "1102",
+        name: { ja: "KANON PANCAKES (カノンパンケーキ)", en: "KANON PANCAKES" },
+        area: { ja: "菊水・白石エリア", en: "Kikusui / Shiroishi" },
+        address: { ja: "札幌市白石区菊水3条5丁目5-18", en: "5-18, Kikusui 3-jo 5-chome, Shiroishi-ku, Sapporo" },
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=KANON+PANCAKES+Sapporo",
+        open_hours: "11:00 - 17:00",
+        holidayStr: { ja: "不定休", en: "Irregular" },
+        features: ["Sweets", "Cozy", "Instagrammable", "No Smoking"],
+        description: {
+            ja: "予約必須の人気パンケーキ専門店。ふわふわで口どけの良いリコッタパンケーキは、一度食べたら忘れられない味。",
+            en: "A popular pancake specialty shop where reservations are essential. The fluffy, melt-in-your-mouth ricotta pancakes are unforgettable."
+        },
+        imageUrl: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        rating: { work_comfort: 2, coffee: 3, vibe: 4 },
+        kazesift_comment: {
+            ja: "甘すぎない大人のパンケーキ。休日は混み合うので時間に余裕を持って。",
+            en: "Pancakes that aren't too sweet, perfect for adults. It gets crowded on weekends, so allocate enough time."
+        },
+        reviewHighlights: {
+            ja: ["パンケーキがふわふわ", "並ぶ価値あり", "店員さんが親切"],
+            en: ["Fluffy pancakes", "Worth the wait", "Kind staff"]
+        }
+    },
+    {
+        id: "1103",
+        name: { ja: "Little Fort Coffee (リトルフォートコーヒー)", en: "Little Fort Coffee" },
+        area: { ja: "東札幌・白石エリア", en: "Higashi Sapporo / Shiroishi" },
+        address: { ja: "札幌市白石区東札幌2条3-4-3", en: "4-3, Higashi Sapporo 2-jo 3-chome, Shiroishi-ku, Sapporo" },
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Little+Fort+Coffee",
+        open_hours: "12:00 - 18:00",
+        holidayStr: { ja: "水曜日・不定休", en: "Wednesday / Irregular" },
+        features: ["Good Coffee", "Coffee Specialty", "Cozy", "Silence"],
+        description: {
+            ja: "「小さな砦」という名の通り、自分だけの隠れ家にしたい自家焙煎珈琲店。店主のこだわりが詰まった一杯と静かな時間を。",
+            en: "True to its name 'Little Fort', this home-roasting coffee shop feels like a personal hideaway. Enjoy a carefully crafted cup in quiet time."
+        },
+        imageUrl: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        rating: { work_comfort: 3, coffee: 5, vibe: 5 },
+        kazesift_comment: {
+            ja: "ラテアートも美しく、コーヒー好きにはたまらないお店。静かに本を読みたい時におすすめ。",
+            en: "Beautiful latte art and a haven for coffee lovers. Recommended when you want to read a book quietly."
+        },
+        reviewHighlights: {
+            ja: ["ラテアート", "居心地が良い", "コーヒー豆の販売"],
+            en: ["Latte art", "Cozy", "Coffee beans for sale"]
+        }
+    },
+    {
+        id: "1104",
+        name: { ja: "BleuPaon BAKE SHOP (ブルーパオン)", en: "BleuPaon BAKE SHOP" },
+        area: { ja: "菊水・白石エリア", en: "Kikusui / Shiroishi" },
+        address: { ja: "札幌市白石区菊水2条3丁目1-25", en: "1-25, Kikusui 2-jo 3-chome, Shiroishi-ku, Sapporo" },
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=BleuPaon+BAKE+SHOP",
+        open_hours: "11:00 - 19:00",
+        holidayStr: { ja: "不定休", en: "Irregular" },
+        features: ["Sweets", "Takeout", "Cozy", "Good Coffee"],
+        description: {
+            ja: "焼き菓子専門店が営むカフェ。マフィンやスコーン、チーズケーキなど豊富な焼き菓子と共に、ゆったりとしたカフェタイムを。",
+            en: "A cafe run by a baked goods specialty shop. Enjoy a relaxing cafe time with a wide variety of baked goods like muffins, scones, and cheesecakes."
+        },
+        imageUrl: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        rating: { work_comfort: 3, coffee: 3, vibe: 4 },
+        kazesift_comment: {
+            ja: "焼き菓子の香りに包まれる幸せな空間。テイクアウトでお土産にするのもおすすめ。",
+            en: "A happy space filled with the scent of baked goods. Highly recommended for takeout gifts."
+        },
+        reviewHighlights: {
+            ja: ["マフィンが美味しい", "おしゃれな店内", "種類が豊富"],
+            en: ["Delicious muffins", "Stylish interior", "Wide variety"]
+        }
+    },
 ];
