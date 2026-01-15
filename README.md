@@ -46,12 +46,15 @@
 本プロジェクトは **MIT License** の下で公開されています。
 詳細は [LICENSE](./LICENSE) ファイルをご確認ください。
 
-## 🎁 このプロジェクトの利用について (Usage & Support)
+## 🎁 Terms of "Steal & Support" (利用条件)
 
-このサイトのソースコードは、学習やご自身のプロジェクトのベースとしての利用を含め、**自由に使っていただいて構いません（パクってもOKです！）**。
+Permission is hereby granted to any person obtaining a copy of this software to **steal, copy, modify, and use** this codebase for their own projects without restriction.
+(このサイトのソースコードは、学習やご自身のプロジェクトのベースとして、自由にお使いください。**パクってもOKです！**)
 
-もしこのプロジェクトが役に立ったり、デザインや機能を気に入っていただけましたら、コード利用の対価として **お仕事の依頼（案件）** をいただけると大変嬉しいです！
-Webサイト制作、システム開発のご相談など、いつでもお待ちしています。
+**However, the following condition is highly appreciated:**
+
+If you find this project useful or like the design, please consider **sending a business inquiry or project request** as a token of appreciation.
+(もし役に立ったり、デザインを気に入っていただけましたら、コード利用の感謝の印として **お仕事の依頼（案件）** をいただけると大変嬉しいです！Webサイト制作やシステム開発のご相談、いつでもお待ちしています。)
 
 ---
 Created by Kazesift Team with AI Assistance.
