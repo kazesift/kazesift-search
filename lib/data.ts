@@ -2166,7 +2166,7 @@ export const cafes: Cafe[] = [
         address: { ja: "札幌市中央区南2条西3丁目20 moyuk SAPPORO 4F-6F", en: "moyuk SAPPORO 4F-6F, Minami 2-jo Nishi 3-chome, Chuo-ku, Sapporo" },
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=AOAO+SAPPORO",
         open_hours: "10:00 - 22:00",
-        features: ["Wi-Fi", "Power", "Good View", "Kid Friendly", "Late Night", "Coworking"], // Added Coworking
+        features: ["Wi-Fi", "Power", "Good View", "Kids Friendly", "Late Night", "Coworking"], // Added Coworking
         description: {
             ja: "水族館「AOAO SAPPORO」内のコワーキングスペース。入館料は必要だが、電源付きテーブルやWi-Fi完備。ペンギンを見ながらの仕事は唯一無二の体験。",
             en: "Coworking space inside the aquarium 'AOAO SAPPORO'. Admission fee required, but equipped with powered tables and Wi-Fi. Working while watching penguins is a unique experience."

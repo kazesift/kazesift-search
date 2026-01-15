@@ -55,7 +55,9 @@ export type Feature =
   | "View"
   | "Smoking"
   | "Coffee Specialty"
-  | "No Clock";
+  | "No Clock"
+  | "Safe"
+  | "Free";
 
 export interface Cafe {
   id: string;
