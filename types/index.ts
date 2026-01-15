@@ -48,6 +48,7 @@ export type Feature =
   | "Coworking"
   | "Refill Coffee"
   | "Hideaway"
+  | "Sofa"
   | "Spacious"
   | "New Open"
   | "Healthy"
