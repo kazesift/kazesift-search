@@ -1,4 +1,4 @@
-export type Feature = "Wi-Fi" | "Power" | "Silence" | "Meeting" | "Late Night" | "Good Coffee" | "View" | "Takeout" | "Morning" | "Vintage" | "Classic" | "Smoking" | "Cozy" | "Food" | "Parking" | "Pet Friendly" | "Sweets" | "Instagrammable" | "Coffee Specialty" | "No Clock";
+export type Feature = "Wi-Fi" | "Power" | "Silence" | "Meeting" | "Late Night" | "Good Coffee" | "View" | "Takeout" | "Morning" | "Vintage" | "Classic" | "Smoking" | "Cozy" | "Food" | "Parking" | "Pet Friendly" | "Sweets" | "Instagrammable" | "Coffee Specialty" | "No Clock" | "No Smoking";
 
 export interface Cafe {
   id: string;
