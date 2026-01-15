@@ -1,0 +1,240 @@
+{
+    "name": "Kazesift Cafe Discovery",
+    "nodes": [
+        {
+            "parameters": {
+                "rule": {
+                    "interval": [
+                        {
+                            "field": "weeks",
+                            "triggerAtDay": [
+                                1
+                            ],
+                            "triggerAtHour": 9
+                        }
+                    ]
+                }
+            },
+            "type": "n8n-nodes-base.scheduleTrigger",
+            "typeVersion": 1,
+            "position": [
+                250,
+                300
+            ],
+            "id": "schedule-trigger",
+            "name": "Weekly Schedule"
+        },
+        {
+            "parameters": {
+                "url": "https://google.serper.dev/search",
+                "method": "POST",
+                "authentication": "genericCredentialType",
+                "genericAuthType": "httpHeaderAuth",
+                "sendBody": true,
+                "bodyParameters": {
+                    "parameters": [
+                        {
+                            "name": "q",
+                            "value": "札幌 カフェ ニューオープン 2025"
+                        },
+                        {
+                            "name": "gl",
+                            "value": "jp"
+                        },
+                        {
+                            "name": "hl",
+                            "value": "ja"
+                        }
+                    ]
+                }
+            },
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 3,
+            "position": [
+                450,
+                300
+            ],
+            "id": "serper-search",
+            "name": "Search New Cafes",
+            "credentials": {
+                "httpHeaderAuth": {
+                    "id": "YOUR_SERPER_CREDENTIAL_ID",
+                    "name": "Serper.dev Header Auth"
+                }
+            }
+        },
+        {
+            "parameters": {
+                "jsCode": "// Mock logic to parse Serper results and filter\n// In production, you would map the actual API response\nconst results = items[0].json.organic || [];\n\nconst newCafes = results.filter(item => {\n  // Simple keyword matching for demo. \n  // Enhancement: Use LLM node here to parse 'Open Date' from snippet\n  return item.snippet.includes('2025') || item.snippet.includes('オープン');\n});\n\nreturn newCafes.map(cafe => {\n  return {\n    json: {\n      name: cafe.title,\n      link: cafe.link,\n      snippet: cafe.snippet,\n      // Default values to be refined manually in PR\n      rating: 4.5,\n      reviews: 50,\n      openDate: '2025-??'\n    }\n  }\n});"
+            },
+            "type": "n8n-nodes-base.code",
+            "typeVersion": 1,
+            "position": [
+                650,
+                300
+            ],
+            "id": "filter-results",
+            "name": "Filter & Format"
+        },
+        {
+            "parameters": {
+                "authentication": "oAuth2",
+                "resource": "file",
+                "operation": "get",
+                "owner": "YOUR_GITHUB_USER",
+                "repository": "kazesift-search",
+                "filePath": "lib/data.ts"
+            },
+            "type": "n8n-nodes-base.github",
+            "typeVersion": 1,
+            "position": [
+                850,
+                300
+            ],
+            "id": "get-current-file",
+            "name": "Get Current data.ts",
+            "credentials": {
+                "githubOAuth2Api": {
+                    "id": "YOUR_GITHUB_CREDENTIAL_ID",
+                    "name": "GitHub Account"
+                }
+            }
+        },
+        {
+            "parameters": {
+                "jsCode": "// Append new cafe to the cafe array string\nconst currentFileContent = Buffer.from(items[0].json.content, 'base64').toString('utf-8');\nconst newCafeData = items('Filter & Format')[0].json;\n\n// Construct the TS object string\nconst newEntry = `\n    {\n        id: \"${Math.floor(Math.random() * 1000) + 100}\", // Temp ID\n        name: { ja: \"${newCafeData.name}\", en: \"${newCafeData.name}\" },\n        description: { ja: \"自動検出: ${newCafeData.snippet}\", en: \"Auto-detected\" },\n        area: { ja: \"札幌\", en: \"Sapporo\" },\n        address: { ja: \"確認中\", en: \"Checking\" },\n        imageUrl: \"https://images.unsplash.com/photo-1554118811-1e0d58224f24\",\n        features: [\"Good Coffee\"],\n        rating: { work_comfort: 3, coffee: 3, vibe: 3 },\n        kazesift_comment: { ja: \"New!\", en: \"New!\" },\n        open_hours: \"10:00 - 18:00\",\n        officialUrl: \"${newCafeData.link}\",\n        googleMapRating: ${newCafeData.rating},\n        googleMapReviews: ${newCafeData.reviews},\n        googleMapsUrl: \"https://maps.google.com\",\n        reviewHighlights: { ja: [], en: [] },\n        holidayStr: { ja: \"不定休\", en: \"Irregular\" },\n        openDate: \"${newCafeData.openDate}\"\n    }\n`;\n\n// Basic string injection before the closing bracket of the array\n// WARNING: This is brittle string manipulation. In a real app, use AST or JSON storage.\nconst lastBracketIndex = currentFileContent.lastIndexOf('];');\nconst updatedContent = currentFileContent.slice(0, lastBracketIndex) + \",\" + newEntry + currentFileContent.slice(lastBracketIndex);\n\nreturn [{\n  json: {\n    updatedContent: Buffer.from(updatedContent).toString('base64'),\n    branchName: `auto-update-${new Date().getTime()}`,\n    commitMessage: `feat: Add ${newCafeData.name}`\n  }\n}];"
+            },
+            "type": "n8n-nodes-base.code",
+            "typeVersion": 1,
+            "position": [
+                1050,
+                300
+            ],
+            "id": "prepare-commit",
+            "name": "Prepare Code Edit"
+        },
+        {
+            "parameters": {
+                "authentication": "oAuth2",
+                "resource": "file",
+                "operation": "create",
+                "owner": "YOUR_GITHUB_USER",
+                "repository": "kazesift-search",
+                "filePath": "lib/data.ts",
+                "branch": "={{ $json.branchName }}",
+                "sourceBranch": "main",
+                "fileContent": "={{ $json.updatedContent }}",
+                "commitMessage": "={{ $json.commitMessage }}"
+            },
+            "type": "n8n-nodes-base.github",
+            "typeVersion": 1,
+            "position": [
+                1250,
+                300
+            ],
+            "id": "create-branch-commit",
+            "name": "Create Commit on Branch",
+            "credentials": {
+                "githubOAuth2Api": {
+                    "id": "YOUR_GITHUB_CREDENTIAL_ID",
+                    "name": "GitHub Account"
+                }
+            }
+        },
+        {
+            "parameters": {
+                "authentication": "oAuth2",
+                "resource": "pullRequest",
+                "operation": "create",
+                "owner": "YOUR_GITHUB_USER",
+                "repository": "kazesift-search",
+                "title": "={{ $json.commitMessage }}",
+                "head": "={{ $json.branchName }}",
+                "base": "main",
+                "body": "This PR was auto-generated by n8n. Please review the new cafe data in `lib/data.ts`."
+            },
+            "type": "n8n-nodes-base.github",
+            "typeVersion": 1,
+            "position": [
+                1450,
+                300
+            ],
+            "id": "create-pr",
+            "name": "Create Pull Request",
+            "credentials": {
+                "githubOAuth2Api": {
+                    "id": "YOUR_GITHUB_CREDENTIAL_ID",
+                    "name": "GitHub Account"
+                }
+            }
+        }
+    ],
+    "connections": {
+        "Weekly Schedule": {
+            "main": [
+                [
+                    {
+                        "node": "Search New Cafes",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Search New Cafes": {
+            "main": [
+                [
+                    {
+                        "node": "Filter & Format",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Filter & Format": {
+            "main": [
+                [
+                    {
+                        "node": "Get Current data.ts",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Get Current data.ts": {
+            "main": [
+                [
+                    {
+                        "node": "Prepare Code Edit",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Prepare Code Edit": {
+            "main": [
+                [
+                    {
+                        "node": "Create Commit on Branch",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Create Commit on Branch": {
+            "main": [
+                [
+                    {
+                        "node": "Create Pull Request",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        }
+    }
+}
