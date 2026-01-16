@@ -63,5 +63,19 @@ export const influencers: Influencer[] = [
         recommendations: [
             { cafeId: "30" }, { cafeId: "1003" }, { cafeId: "1005" }
         ]
+    },
+    {
+        id: "sp_cafe_pu",
+        name: "楓 (Kaede)",
+        url: "https://www.threads.net/@sp.cafe.pu",
+        platform: "Threads",
+        description: {
+            ja: "札幌カフェめぐり記録。美味しい珈琲とスイーツを求めて。",
+            en: "Sapporo Cafe Tour Record. In search of delicious coffee and sweets."
+        },
+        recommendations: [
+            { cafeId: "5" },   // FAbULOUS
+            { cafeId: "1701" } // SPUR
+        ]
     }
 ];

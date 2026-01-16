@@ -1,5 +1,60 @@
 [
     {
+        "id": "1701",
+        "name": {
+            "ja": "Cafe & Dining SPUR",
+            "en": "Cafe & Dining SPUR"
+        },
+        "description": {
+            "ja": "円山公園近くにある、朝から夜まで楽しめるカフェダイニング。手作りスイーツやこだわりのハンドドリップコーヒーが人気。",
+            "en": "Cafe & Dining near Maruyama Park, open from morning to night. Popular for handmade sweets and specialty hand-drip coffee."
+        },
+        "area": {
+            "ja": "円山エリア",
+            "en": "Maruyama Area"
+        },
+        "address": {
+            "ja": "札幌市中央区北1条西24丁目",
+            "en": "Kita 1-jo Nishi 24-chome, Chuo-ku, Sapporo"
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cafe+Dining+SPUR+Sapporo",
+        "open_hours": "08:30 - 22:00",
+        "features": [
+            "Good Coffee",
+            "Sweets",
+            "Lunch",
+            "Dinner",
+            "Morning",
+            "Alcohol"
+        ],
+        "rating": {
+            "work_comfort": 3,
+            "coffee": 5,
+            "vibe": 4
+        },
+        "kazesift_comment": {
+            "ja": "朝食からディナーまで使える万能な一軒。チーズテリーヌが絶品。",
+            "en": "Versatile spot good for everything from breakfast to dinner. The cheese terrine is exquisite."
+        },
+        "imageUrl": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-1.2.1&auto=format&fit=crop&w=1947&q=80",
+        "reviewHighlights": {
+            "ja": [
+                "チーズテリーヌ",
+                "ハンドドリップ",
+                "落ち着く空間"
+            ],
+            "en": [
+                "Cheese Terrine",
+                "Hand Drip",
+                "Relaxing space"
+            ]
+        },
+        "holidayStr": {
+            "ja": "不定休",
+            "en": "Irregular"
+        }
+    },
+    {
         "id": "1",
         "name": {
             "ja": "MORIHICO. STAY & COFFEE",
