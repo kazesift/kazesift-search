@@ -2235,6 +2235,8 @@ export const cafes: Cafe[] = [
         area: { ja: "大通・狸小路エリア", en: "Odori / Tanukikoji" }, // Actually slightly south (Minami 13), near Nakajima Park/Yamahana. Mapping to "Other" or "Odori" depending on granularity. Using "Odori" as broadly central/south for now or "Other". Let's use "Other" or define a new area? Actually user categorized previous ones in Toyohira. Minami 13 is Yamahana. Let's use "Other Area" for now or "Sapporo Central South". Existing areas: "Odori/Tanukikoji", "Toyohira/Hiragishi", "Atsubetsu/Shin-Sapporo". "Other" fits best for Yamahana.
         address: { ja: "札幌市中央区南13条西11丁目2-3", en: "2-3, Minami 13-jo Nishi 11-chome, Chuo-ku, Sapporo" },
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Ishiyama+Dori+Coffee",
+        googleMapRating: 4.2,
+        googleMapReviews: 85,
         instagramUrl: "https://www.instagram.com/s13ishiyama/",
         open_hours: "10:00 - 26:00 (Next day 02:00)",
         features: ["Late Night", "Smoking", "Good Coffee", "Parking", "Classic", "Sweets", "Food"],
