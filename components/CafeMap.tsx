@@ -42,7 +42,7 @@ export default function CafeMap({ cafes }: { cafes: Cafe[] }) {
         <MapContainer
             center={center}
             zoom={13}
-            style={{ height: "100%", width: "100%", borderRadius: "0.75rem", zIndex: 0 }}
+            style={{ height: "100%", width: "100%", borderRadius: "0.75rem" }}
         >
             <TileLayer
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

@@ -10,7 +10,7 @@ import { FavoritesProvider, useFavorites } from "@/lib/favorites";
 import { trackEvent } from "@/lib/analytics";
 import InfluencerSection from "@/components/InfluencerSection";
 import { Cafe } from "@/types";
-import dynamic from "next/dynamic";
+import MapWrapper from "@/components/MapWrapper";
 
 function MainContent() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -19,9 +19,6 @@ function MainContent() {
   const [viewMode, setViewMode] = useState<"list" | "map">("list");
   const { language, setLanguage, t } = useLanguage();
   const { isFavorite } = useFavorites();
-
-  // Dynamically import Map to avoid SSR
-  const MapWrapper = dynamic(() => import('@/components/MapWrapper'), { ssr: false });
 
   const filteredCafes = cafes.filter((cafe) => {
     // @ts-ignore

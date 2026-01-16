@@ -3,6 +3,7 @@ import { Noto_Sans_JP } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { GoogleAnalytics } from '@next/third-parties/google';
+import "leaflet/dist/leaflet.css";
 
 const notoSansJP = Noto_Sans_JP({
   variable: "--font-sans",
