@@ -41,7 +41,14 @@ export function CafeCard({ cafe }: { cafe: Cafe }) {
 
                     <div className="absolute bottom-3 left-3 text-white">
                         {/* @ts-ignore */}
-                        <h3 className="text-lg font-bold">{cafe.name[language]}</h3>
+                        <h3 className="text-lg font-bold flex items-center gap-1">
+                            {cafe.name[language]}
+                            {cafe.verified && (
+                                <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-blue-500 text-[10px] text-white" title="Verified by Kazesift">
+                                    ✓
+                                </span>
+                            )}
+                        </h3>
                         <div className="flex items-center gap-1 text-xs opacity-90">
                             <MapPin size={12} />
                             {/* @ts-ignore */}

@@ -60,7 +60,14 @@ export function CafeDetailClient({ id }: { id: string }) {
                                 </span>
                             ))}
                         </div>
-                        <h1 className="text-3xl font-bold md:text-5xl">{cafe.name[language]}</h1>
+                        <h1 className="text-3xl font-bold md:text-5xl flex items-center gap-2">
+                            {cafe.name[language]}
+                            {cafe.verified && (
+                                <span className="inline-flex items-center gap-1 rounded-full bg-blue-500/90 px-2 py-0.5 text-sm font-medium text-white shadow-sm backdrop-blur-sm">
+                                    <span className="text-xs">✓ Verified</span>
+                                </span>
+                            )}
+                        </h1>
                         <p className="mt-2 text-lg opacity-90">{cafe.area[language]}</p>
                     </div>
                 </div>
