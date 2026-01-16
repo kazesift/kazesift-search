@@ -2242,7 +2242,7 @@ export const cafes: Cafe[] = [
             ja: "深夜2時・3時まで営業している貴重なカフェ。柴崎亮太さんが経営を引き継ぎ、新体制でスタート。レンガ造りの落ち着いた空間で、夜遅くまでゆっくり過ごせる。",
             en: "A valuable cafe open until 2:00 or 3:00 AM. Recently taken over by Ryouta Shiba. Enjoy a relaxing time late into the night in this calm brick-style space."
         },
-        imageUrl: "https://images.unsplash.com/photo-1521017432531-fbd92d768814?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80", // Placeholder or upload? User uploaded image. I should use the uploaded image if possible, but I cannot upload to public URL easily. I will use a placeholder or the provided unsplash for now, or if I can reference the local file? No, web app needs public URL. I'll use Unsplash representing "Brick cafe".
+        imageUrl: "/images/ishiyama-coffee.png",
         rating: { work_comfort: 3, coffee: 4, vibe: 5 },
         kazesift_comment: {
             ja: "「頑張るぞ💪」の意気込みと共に新体制へ。深夜の隠れ家として、これからの進化が楽しみな一軒。",
