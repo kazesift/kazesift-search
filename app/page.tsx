@@ -201,69 +201,68 @@ function MainContent() {
             ))}
           </div>
         ) : (
-        ): (
-            <div 
-            className = "w-full rounded-xl overflow-hidden shadow-lg border border-gray-200 relative bg-gray-100"
-            style = {{ height: '500px', minHeight: '500px' }}
+          <div
+            className="w-full rounded-xl overflow-hidden shadow-lg border border-gray-200 relative bg-gray-100"
+            style={{ height: '500px', minHeight: '500px' }}
           >
-        <MapWrapper cafes={filteredCafes} />
-        {/* Map Legend Overlay */}
-        <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur p-3 rounded-lg shadow-md text-xs z-[1000]">
-          <div className="font-bold mb-1">Map Info</div>
-          <div>📍 Default Pin: Cafe Location</div>
-          <div className="text-gray-500 mt-1">(Locations are approximate demo)</div>
-        </div>
-    </div>
-  )
-}
+            <MapWrapper cafes={filteredCafes} />
+            {/* Map Legend Overlay */}
+            <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur p-3 rounded-lg shadow-md text-xs z-[1000]">
+              <div className="font-bold mb-1">Map Info</div>
+              <div>📍 Default Pin: Cafe Location</div>
+              <div className="text-gray-500 mt-1">(Locations are approximate demo)</div>
+            </div>
+          </div>
+        )
+        }
 
-{
-  filteredCafes.length === 0 && (
-    <div className="mt-12 text-center">
-      <p className="text-lg text-gray-500">{t("noResults")}</p>
-      <button
-        onClick={() => { setSearchTerm(""); setFilterType(null); setActiveTab("all"); }}
-        className="mt-4 text-[var(--color-secondary)] underline decoration-dotted underline-offset-4"
-      >
-        {t("clearFilters")}
-      </button>
-    </div>
-  )
-}
+        {
+          filteredCafes.length === 0 && (
+            <div className="mt-12 text-center">
+              <p className="text-lg text-gray-500">{t("noResults")}</p>
+              <button
+                onClick={() => { setSearchTerm(""); setFilterType(null); setActiveTab("all"); }}
+                className="mt-4 text-[var(--color-secondary)] underline decoration-dotted underline-offset-4"
+              >
+                {t("clearFilters")}
+              </button>
+            </div>
+          )
+        }
       </section >
 
-  {/* Footer */ }
-  < footer className = "mt-auto border-t border-gray-100 bg-gray-50 py-12 text-center text-sm text-gray-500" >
-    <div className="container mx-auto px-4">
-      <p className="mb-4 font-medium opacity-80">{t("footer")}</p>
-      <Link href="/about" className="text-[var(--color-secondary)] hover:underline transition-all">
-        {t("aboutKazesift")}
-      </Link>
-      <span className="mx-2 text-gray-300">|</span>
-      <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLSdeBG28KltvlVXx_dhMd1H_idhIg54TTcMKRbaHxKEazGP8sg/viewform"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-[var(--color-secondary)] hover:underline transition-all font-medium"
-      >
-        {t("submitInfo")}
-      </a>
-      <span className="mx-2 text-gray-300">|</span>
-      <a
-        href="https://github.com/kazesift/kazesift-search"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-gray-500 hover:underline transition-all font-medium text-xs bg-gray-100 px-2 py-1 rounded-full"
-      >
-        <span className="mr-1">🧑‍💻</span>
-        {t("sourceCode")}
-      </a>
-      <div className="mt-8 text-center text-gray-400 text-sm">
-        <span>© 2024 Kazesift Search</span>
-      </div>
-    </div>
+      {/* Footer */}
+      < footer className="mt-auto border-t border-gray-100 bg-gray-50 py-12 text-center text-sm text-gray-500" >
+        <div className="container mx-auto px-4">
+          <p className="mb-4 font-medium opacity-80">{t("footer")}</p>
+          <Link href="/about" className="text-[var(--color-secondary)] hover:underline transition-all">
+            {t("aboutKazesift")}
+          </Link>
+          <span className="mx-2 text-gray-300">|</span>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdeBG28KltvlVXx_dhMd1H_idhIg54TTcMKRbaHxKEazGP8sg/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[var(--color-secondary)] hover:underline transition-all font-medium"
+          >
+            {t("submitInfo")}
+          </a>
+          <span className="mx-2 text-gray-300">|</span>
+          <a
+            href="https://github.com/kazesift/kazesift-search"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-500 hover:underline transition-all font-medium text-xs bg-gray-100 px-2 py-1 rounded-full"
+          >
+            <span className="mr-1">🧑‍💻</span>
+            {t("sourceCode")}
+          </a>
+          <div className="mt-8 text-center text-gray-400 text-sm">
+            <span>© 2024 Kazesift Search</span>
+          </div>
+        </div>
       </footer >
-  <InfluencerSection />
+      <InfluencerSection />
     </div >
   );
 }
