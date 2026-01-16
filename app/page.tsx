@@ -202,13 +202,15 @@ function MainContent() {
           </div>
         </div>
 
-        {viewMode === "list" ? (
+        {viewMode === "list" && (
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {filteredCafes.map((cafe) => (
               <CafeCard key={cafe.id} cafe={cafe} />
             ))}
           </div>
-        ) : (
+        )}
+
+        {viewMode === "map" && (
           <div
             className="w-full rounded-xl overflow-hidden shadow-lg border border-gray-200 relative bg-gray-100"
             style={{ height: '500px', minHeight: '500px' }}
@@ -216,27 +218,24 @@ function MainContent() {
             <MapWrapper cafes={filteredCafes} />
             {/* Map Legend Overlay */}
             <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur p-3 rounded-lg shadow-md text-xs z-[1000]">
-              <div className="font-bold mb-1">Map Info</div>
+              <div className="font-bold mb-1">Map Guide</div>
               <div>📍 Default Pin: Cafe Location</div>
               <div className="text-gray-500 mt-1">(Locations are approximate demo)</div>
             </div>
           </div>
-        )
-        }
+        )}
 
-        {
-          filteredCafes.length === 0 && (
-            <div className="mt-12 text-center">
-              <p className="text-lg text-gray-500">{t("noResults")}</p>
-              <button
-                onClick={() => { setSearchTerm(""); setFilterType(null); setActiveTab("all"); }}
-                className="mt-4 text-[var(--color-secondary)] underline decoration-dotted underline-offset-4"
-              >
-                {t("clearFilters")}
-              </button>
-            </div>
-          )
-        }
+        {filteredCafes.length === 0 && (
+          <div className="mt-12 text-center">
+            <p className="text-lg text-gray-500">{t("noResults")}</p>
+            <button
+              onClick={() => { setSearchTerm(""); setFilterType(null); setActiveTab("all"); }}
+              className="mt-4 text-[var(--color-secondary)] underline decoration-dotted underline-offset-4"
+            >
+              {t("clearFilters")}
+            </button>
+          </div>
+        )}
       </section >
 
       {/* Footer */}
