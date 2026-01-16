@@ -251,7 +251,8 @@
         "features": [
             "Wi-Fi",
             "Good Coffee",
-            "Meeting"
+            "Meeting",
+            "Food"
         ],
         "rating": {
             "work_comfort": 4,
@@ -259,8 +260,8 @@
             "vibe": 5
         },
         "kazesift_comment": {
-            "ja": "おしゃれな空間で気分を上げたい時に。",
-            "en": "When you want to boost your mood in a stylish space."
+            "ja": "【実地レポ】今日行ってきましたが、本格的でスパイスの効いたカレーが絶品でした！作業だけでなくランチ利用もおすすめ。",
+            "en": "[Visited] The authentic spicy curry was excellent! Highly recommended for lunch as well as work."
         },
         "open_hours": "08:00 - 20:00",
         "officialUrl": "https://www.rounduptrading.com/",
