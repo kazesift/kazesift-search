@@ -101,4 +101,5 @@ export interface Cafe {
   openDate?: string; // e.g. "2025-05" (YYYY-MM)
   lat?: number;
   lng?: number;
+  verified?: boolean;
 }
