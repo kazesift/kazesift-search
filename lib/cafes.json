@@ -5526,5 +5526,59 @@
                 "Good coffee"
             ]
         }
+    },
+    {
+        "id": "1702",
+        "name": {
+            "ja": "Cafe la BASTILLE",
+            "en": "Cafe la BASTILLE"
+        },
+        "description": {
+            "ja": "大通西1丁目にある、南フランス風の落ち着いた老舗カフェ。名物のレアチーズケーキと深煎り珈琲は相性抜群。",
+            "en": "A classic cafe with a Southern French atmosphere, located in Odori Nishi 1-chome. The rare cheesecake and dark roast coffee are a perfect match."
+        },
+        "area": {
+            "ja": "大通エリア",
+            "en": "Odori Area"
+        },
+        "address": {
+            "ja": "札幌市中央区大通西1丁目15-3 大通KHビル 1F",
+            "en": "1-15-3 Odori Nishi, Chuo-ku, Sapporo"
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cafe+la+BASTILLE+Sapporo",
+        "open_hours": "12:00 - 22:00",
+        "features": [
+            "Good Coffee",
+            "Sweets",
+            "Silence",
+            "Classic",
+            "Late Night"
+        ],
+        "rating": {
+            "work_comfort": 3,
+            "coffee": 5,
+            "vibe": 5
+        },
+        "kazesift_comment": {
+            "ja": "都会の喧騒を忘れる静寂な空間。「レアチーズ」は必食。",
+            "en": "A quiet space to forget the city noise. The 'Rare Cheesecake' is a must-try."
+        },
+        "imageUrl": "https://images.unsplash.com/photo-1559305616-3a99c2d3d623?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        "reviewHighlights": {
+            "ja": [
+                "レアチーズケーキ",
+                "落ち着いた雰囲気",
+                "深夜まで営業"
+            ],
+            "en": [
+                "Rare Cheesecake",
+                "Relaxed atmosphere",
+                "Open late"
+            ]
+        },
+        "holidayStr": {
+            "ja": "月曜 (祝日の場合は火曜)",
+            "en": "Mon (Tue if holiday)"
+        }
     }
 ]
