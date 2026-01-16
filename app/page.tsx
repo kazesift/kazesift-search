@@ -237,7 +237,7 @@ function MainContent() {
           </Link>
           <span className="mx-2 text-gray-300">|</span>
           <a
-            href="https://forms.google.com/your-form-id"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdeBG28KltvlVXx_dhMd1H_idhIg54TTcMKRbaHxKEazGP8sg/viewform"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[var(--color-secondary)] hover:underline transition-all font-medium"
