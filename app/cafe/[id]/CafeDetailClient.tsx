@@ -158,14 +158,24 @@ export function CafeDetailClient({ id }: { id: string }) {
                                             {cafe.googleMapReviews} reviews
                                         </div>
                                         {cafe.googleMapsUrl && (
-                                            <a
-                                                href={cafe.googleMapsUrl}
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                                className="block w-full text-center bg-white border border-gray-300 py-2 rounded-lg text-sm font-medium hover:bg-gray-50 transition-colors"
-                                            >
-                                                {t("viewOnGoogleMaps")}
-                                            </a>
+                                            <div className="space-y-2">
+                                                <a
+                                                    href={cafe.googleMapsUrl}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="block w-full text-center bg-white border border-gray-300 py-2 rounded-lg text-sm font-medium hover:bg-gray-50 transition-colors"
+                                                >
+                                                    {t("viewOnGoogleMaps")}
+                                                </a>
+                                                <a
+                                                    href={`${cafe.googleMapsUrl}&reviews=1`} // Trying to trigger reviews, or just use same URL with different label for UI
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="block w-full text-center text-[var(--color-primary)] bg-blue-50 border border-blue-100 py-2 rounded-lg text-sm font-medium hover:bg-blue-100 transition-colors"
+                                                >
+                                                    ⭐️ {language === "ja" ? "Googleの口コミを見る" : "See Google Reviews"}
+                                                </a>
+                                            </div>
                                         )}
                                     </div>
                                 )}

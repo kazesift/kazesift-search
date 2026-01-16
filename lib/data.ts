@@ -2236,21 +2236,21 @@ export const cafes: Cafe[] = [
         address: { ja: "札幌市中央区南13条西11丁目2-3", en: "2-3, Minami 13-jo Nishi 11-chome, Chuo-ku, Sapporo" },
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Ishiyama+Dori+Coffee",
         instagramUrl: "https://www.instagram.com/s13ishiyama/",
-        open_hours: "10:00 - 26:00 (Next day 02:00)", // 10:00 - 02:00/03:00. Writing as 26:00 for clarity or 02:00.
-        features: ["Late Night", "Smoking", "Good Coffee", "Parking", "Classic"],
+        open_hours: "10:00 - 26:00 (Next day 02:00)",
+        features: ["Late Night", "Smoking", "Good Coffee", "Parking", "Classic", "Sweets", "Food"],
         description: {
-            ja: "深夜2時・3時まで営業している貴重なカフェ。柴崎亮太さんが経営を引き継ぎ、新体制でスタート。レンガ造りの落ち着いた空間で、夜遅くまでゆっくり過ごせる。",
-            en: "A valuable cafe open until 2:00 or 3:00 AM. Recently taken over by Ryouta Shiba. Enjoy a relaxing time late into the night in this calm brick-style space."
+            ja: "札幌南13条、レンガ造りの外観が目を引く大人のための隠れ家カフェ。宮越屋珈琲の豆を使用したこだわりのハンドドリップ珈琲と、手作りのチーズケーキやガトーショコラが自慢。深夜26時まで営業しており、柔らかな照明の中でゆったりとした時間を過ごせる。駐車場完備で車での来店も安心。",
+            en: "An adult hideaway cafe in Minami 13-jo with an eye-catching brick exterior. boasts carefully hand-drip coffee using Miyakoshiya Coffee beans and homemade cheesecakes and gateau chocolat. Open until 2:00 AM, offering a relaxing time in soft lighting. Complete with parking for peace of mind."
         },
         imageUrl: "/images/ishiyama-coffee.jpg",
-        rating: { work_comfort: 3, coffee: 4, vibe: 5 },
+        rating: { work_comfort: 3, coffee: 5, vibe: 5 },
         kazesift_comment: {
-            ja: "「頑張るぞ💪」の意気込みと共に新体制へ。深夜の隠れ家として、これからの進化が楽しみな一軒。",
-            en: "Under new management with great enthusiasm. Looking forward to its evolution as a late-night hideaway."
+            ja: "「頑張るぞ💪」の意気込みと共に新体制へ。美味しい珈琲とカレー、そして深夜まで過ごせる安心感。柴崎オーナーの人柄も魅力の一つ。",
+            en: "Under new management with great enthusiasm. Delicious coffee, curry, and the comfort of staying late at night. Owner Shiba's personality is also one of the attractions."
         },
         reviewHighlights: {
-            ja: ["深夜営業", "落ち着く", "駐車場あり"],
-            en: ["Late night", "Relaxing", "Parking"]
+            ja: ["深夜営業", "落ち着く", "駐車場あり", "コーヒーが美味しい"],
+            en: ["Late night", "Relaxing", "Parking", "Good coffee"]
         }
     },
 ];
