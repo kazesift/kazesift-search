@@ -159,7 +159,11 @@ function MainContent() {
               <button
                 onClick={() => {
                   setViewMode("list");
-                  trackEvent({ action: 'switch_view_mode', category: 'UI', label: 'List' });
+                  try {
+                    trackEvent({ action: 'switch_view_mode', category: 'UI', label: 'List' });
+                  } catch (e) {
+                    console.error("Analytics error", e);
+                  }
                 }}
                 className={`flex items-center px-4 py-2 rounded-l-lg transition-colors ${viewMode === "list"
                   ? "bg-[var(--color-primary)] text-white"
@@ -172,7 +176,11 @@ function MainContent() {
               <button
                 onClick={() => {
                   setViewMode("map");
-                  trackEvent({ action: 'switch_view_mode', category: 'UI', label: 'Map' });
+                  try {
+                    trackEvent({ action: 'switch_view_mode', category: 'UI', label: 'Map' });
+                  } catch (e) {
+                    console.error("Analytics error", e);
+                  }
                 }}
                 className={`flex items-center px-4 py-2 rounded-r-lg border-l border-gray-200 transition-colors ${viewMode === "map"
                   ? "bg-[var(--color-primary)] text-white"
