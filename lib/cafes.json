@@ -5580,5 +5580,492 @@
             "ja": "月曜 (祝日の場合は火曜)",
             "en": "Mon (Tue if holiday)"
         }
+    },
+    {
+        "id": "1703",
+        "name": {
+            "ja": "Sobou Saryo (蒼氓茶寮)",
+            "en": "Sobou Saryo"
+        },
+        "description": {
+            "ja": "狸小路近くの隠れ家茶寮。抹茶プリンアフォカードなど、和のスイーツが人気。深夜1時まで営業。",
+            "en": "A hideaway tea house near Tanukikoji. Popular for Japanese sweets like Matcha Pudding Affogato. Open until 1 AM."
+        },
+        "area": {
+            "ja": "大通・狸小路エリア",
+            "en": "Odori / Tanukikoji"
+        },
+        "address": {
+            "ja": "札幌市中央区南2条西1丁目5-9 広和ビル No.13 2F",
+            "en": "広和 Bldg 2F, 5-9, Minami 2-jo Nishi 1-chome, Chuo-ku, Sapporo"
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sobou+Saryo+Sapporo",
+        "open_hours": "11:00 - 25:00",
+        "features": [
+            "Late Night",
+            "Sweets",
+            "Solemn",
+            "Japanese"
+        ],
+        "rating": {
+            "work_comfort": 2,
+            "coffee": 4,
+            "vibe": 5
+        },
+        "kazesift_comment": {
+            "ja": "抹茶ソースが濃厚なのに苦味が強すぎず絶品。夜遅くまで使えるのも魅力。",
+            "en": "Rich matcha sauce without overpowering bitterness. Open late at night."
+        },
+        "imageUrl": "https://images.unsplash.com/photo-1579888944880-d98341245702?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        "reviewHighlights": {
+            "ja": [
+                "抹茶プリン",
+                "深夜営業",
+                "隠れ家"
+            ],
+            "en": [
+                "Matcha Pudding",
+                "Late Night",
+                "Hideaway"
+            ]
+        }
+    },
+    {
+        "id": "1704",
+        "name": {
+            "ja": "Octafuzz",
+            "en": "Octafuzz"
+        },
+        "description": {
+            "ja": "南平岸にあるカフェ。名物はカボチャクリームのプリン。チャイシロップでの味変も楽しめる。",
+            "en": "Cafe in Minami Hiragishi. Famous for pumpkin cream pudding. Try adding chai syrup for a flavor twist."
+        },
+        "area": {
+            "ja": "豊平・平岸エリア",
+            "en": "Toyohira / Hiragishi"
+        },
+        "address": {
+            "ja": "札幌市豊平区平岸3条13丁目7-18 第二平岸メインハイツ 1F",
+            "en": "1F, Hiragishi 3-jo 13-chome, Toyohira-ku, Sapporo"
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Octafuzz+Sapporo",
+        "open_hours": "11:00 - 18:00 (Fri Closed)",
+        "features": [
+            "Sweets",
+            "Good Coffee",
+            "Lunch"
+        ],
+        "rating": {
+            "work_comfort": 2,
+            "coffee": 4,
+            "vibe": 4
+        },
+        "kazesift_comment": {
+            "ja": "かぼちゃクリームの優しい甘さとしっかりめのプリンが最高。中煎りブレンドとも合う。",
+            "en": "The gentle sweetness of pumpkin cream and firm pudding are excellent. Pairs well with medium roast blend."
+        },
+        "imageUrl": "https://images.unsplash.com/photo-1470324161839-ce2bb6fa6bc3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        "reviewHighlights": {
+            "ja": [
+                "プリン",
+                "カレー",
+                "落ち着く"
+            ],
+            "en": [
+                "Pudding",
+                "Curry",
+                "Relaxing"
+            ]
+        }
+    },
+    {
+        "id": "1705",
+        "name": {
+            "ja": "Kissa Dorothy (喫茶ドロシー)",
+            "en": "Kissa Dorothy"
+        },
+        "description": {
+            "ja": "バスセンター前エリアのレトロな喫茶店。ねっとりとしたカボチャプリンやナポリタンが評判。",
+            "en": "Retro kissaten in Bus Center Mae area. Known for sticky pumpkin pudding and Napolitan."
+        },
+        "area": {
+            "ja": "創成川イースト",
+            "en": "Soseigawa East"
+        },
+        "address": {
+            "ja": "札幌市中央区南1条東1丁目2-1 太平洋興発ビル 1F",
+            "en": "Taiheiyo Kohatsu Bldg 1F, Minami 1-jo Higashi 1-chome, Chuo-ku, Sapporo"
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kissa+Dorothy+Sapporo",
+        "open_hours": "09:00 - 17:00",
+        "features": [
+            "Morning",
+            "Sweets",
+            "Classic",
+            "Food"
+        ],
+        "rating": {
+            "work_comfort": 2,
+            "coffee": 4,
+            "vibe": 5
+        },
+        "kazesift_comment": {
+            "ja": "ねっとりカボチャプリンともちもち白玉が美味しい。モーニング利用もおすすめ。",
+            "en": "Sticky pumpkin pudding and mochi shiratama are delicious. Recommended for morning too."
+        },
+        "imageUrl": "https://images.unsplash.com/photo-1550950158-d0d960dff51b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        "reviewHighlights": {
+            "ja": [
+                "プリンアラモード",
+                "ナポリタン",
+                "レトロ"
+            ],
+            "en": [
+                "Pudding a la mode",
+                "Napolitan",
+                "Retro"
+            ]
+        }
+    },
+    {
+        "id": "1706",
+        "name": {
+            "ja": "cafe Brim",
+            "en": "cafe Brim"
+        },
+        "description": {
+            "ja": "北18条のゲストハウスに併設されたカフェ。朝7時から営業しており、丸ごとかぼちゃグラタンが絶品。",
+            "en": "Cafe attached to a guesthouse in Kita 18-jo. Open from 7 AM, featuring exquisite whole pumpkin gratin."
+        },
+        "area": {
+            "ja": "北区・北18条エリア",
+            "en": "Kita-ku / Kita 18-jo"
+        },
+        "address": {
+            "ja": "札幌市北区北18条西4丁目1-8 UNTAPPED HOSTEL 1F",
+            "en": "UNTAPPED HOSTEL 1F, Kita 18-jo Nishi 4-chome, Kita-ku, Sapporo"
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=cafe+Brim+Sapporo",
+        "open_hours": "07:00 - 14:00",
+        "features": [
+            "Morning",
+            "Food",
+            "Good Coffee"
+        ],
+        "rating": {
+            "work_comfort": 3,
+            "coffee": 4,
+            "vibe": 4
+        },
+        "kazesift_comment": {
+            "ja": "夜勤明けのモーニングに最高。香ばしいチーズと自然な甘さのかぼちゃは必食。",
+            "en": "Best for morning after night shift. Savory cheese and natural pumpkin sweetness are a must."
+        },
+        "imageUrl": "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        "reviewHighlights": {
+            "ja": [
+                "モーニング",
+                "グラタン",
+                "ゲストハウス"
+            ],
+            "en": [
+                "Morning",
+                "Gratin",
+                "Guesthouse"
+            ]
+        }
+    },
+    {
+        "id": "1707",
+        "name": {
+            "ja": "Kissa Carmel-do (喫茶 カルメル堂)",
+            "en": "Kissa Carmel-do"
+        },
+        "description": {
+            "ja": "大通のビル6Fにある隠れ家喫茶。静寂な空間で、季節のプリンや珈琲フロートを楽しめる。",
+            "en": "Hideaway kissaten on the 6th floor in Odori. Enjoy seasonal pudding and coffee floats in a quiet space."
+        },
+        "area": {
+            "ja": "大通エリア",
+            "en": "Odori Area"
+        },
+        "address": {
+            "ja": "札幌市中央区南1条西6丁目20-2 KYビル 6F",
+            "en": "KY Bldg 6F, Minami 1-jo Nishi 6-chome, Chuo-ku, Sapporo"
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kissa+Carmel+do+Sapporo",
+        "open_hours": "12:00 - 21:00 (Sun -19:00)",
+        "features": [
+            "Silence",
+            "Sweets",
+            "Classic",
+            "Hideaway"
+        ],
+        "rating": {
+            "work_comfort": 2,
+            "coffee": 5,
+            "vibe": 5
+        },
+        "kazesift_comment": {
+            "ja": "ねっとりとしたカボチャプリンを楽しめて幸せ。珈琲フロートもアイス多めで嬉しい。",
+            "en": "Happy to enjoy the sticky pumpkin pudding. Coffee float has plenty of ice cream."
+        },
+        "imageUrl": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        "reviewHighlights": {
+            "ja": [
+                "静か",
+                "お一人様",
+                "プリン"
+            ],
+            "en": [
+                "Quiet",
+                "For solo",
+                "Pudding"
+            ]
+        }
+    },
+    {
+        "id": "1708",
+        "name": {
+            "ja": "Coffee House Milk (コーヒーハウス ミルク)",
+            "en": "Coffee House Milk"
+        },
+        "description": {
+            "ja": "北20条にある老舗ジャズ喫茶。名物のジャンボチーズトーストはチーズたっぷりでボリューム満点。",
+            "en": "Historic jazz kissa in Kita 20-jo. Famous Jumbo Cheese Toast is voluminous with plenty of cheese."
+        },
+        "area": {
+            "ja": "東区エリア",
+            "en": "Higashi-ku Area"
+        },
+        "address": {
+            "ja": "札幌市東区北20条東1丁目2-41",
+            "en": "Kita 20-jo Higashi 1-chome, Higashi-ku, Sapporo"
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Coffee+House+Milk+Sapporo",
+        "open_hours": "14:00 - 24:00",
+        "features": [
+            "Late Night",
+            "Classic",
+            "Food",
+            "Music"
+        ],
+        "rating": {
+            "work_comfort": 2,
+            "coffee": 4,
+            "vibe": 5
+        },
+        "kazesift_comment": {
+            "ja": "本当にジャンボなトーストと、たっぷりののびるチーズで大満足。看板猫も可愛い。",
+            "en": "Truly jumbo toast and plenty of stretchy cheese. The sign cat is cute too."
+        },
+        "imageUrl": "https://images.unsplash.com/photo-1595183491370-9831a24d8689?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        "reviewHighlights": {
+            "ja": [
+                "チーズトースト",
+                "ジャズ",
+                "猫"
+            ],
+            "en": [
+                "Cheese Toast",
+                "Jazz",
+                "Cat"
+            ]
+        }
+    },
+    {
+        "id": "1709",
+        "name": {
+            "ja": "THE DAY",
+            "en": "THE DAY"
+        },
+        "description": {
+            "ja": "狸小路8丁目のSTAND。朝8時からオープンしており、コーヒーとホットドッグで一日をスタートできる。",
+            "en": "A stand in Tanukikoji 8-chome. Opens at 8 AM, perfect for starting the day with coffee and a hot dog."
+        },
+        "area": {
+            "ja": "大通・狸小路エリア",
+            "en": "Odori / Tanukikoji"
+        },
+        "address": {
+            "ja": "札幌市中央区南3条西8丁目7-3",
+            "en": "Minami 3-jo Nishi 8-chome, Chuo-ku, Sapporo"
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=THE+DAY+Sapporo",
+        "open_hours": "08:00 - 16:00",
+        "features": [
+            "Morning",
+            "Takeout",
+            "Good Coffee",
+            "Food"
+        ],
+        "rating": {
+            "work_comfort": 2,
+            "coffee": 4,
+            "vibe": 4
+        },
+        "kazesift_comment": {
+            "ja": "スタンダードドッグとコーヒーでライトに楽しむ。朝活に最適。",
+            "en": "Enjoy lightly with a standard dog and coffee. Perfect for morning activities."
+        },
+        "imageUrl": "https://images.unsplash.com/photo-1621255557769-6d80d2874136?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        "reviewHighlights": {
+            "ja": [
+                "ホットドッグ",
+                "スタンド",
+                "朝カフェ"
+            ],
+            "en": [
+                "Hot Dog",
+                "Stand",
+                "Morning Cafe"
+            ]
+        }
+    },
+    {
+        "id": "1710",
+        "name": {
+            "ja": "Cafe Lompolo (カフェ ロンポロ)",
+            "en": "Cafe Lompolo"
+        },
+        "description": {
+            "ja": "南区藤野にあるカフェ。固めのカスタードプリンなど、スイーツのクオリティが高い。",
+            "en": "Cafe in Fujino, Minami-ku. High quality sweets like firm custard pudding."
+        },
+        "area": {
+            "ja": "南区エリア",
+            "en": "Minami-ku Area"
+        },
+        "address": {
+            "ja": "札幌市南区藤野3条9丁目1-1",
+            "en": "Fujino 3-jo 9-chome, Minami-ku, Sapporo"
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cafe+Lompolo+Sapporo",
+        "open_hours": "10:00 - Close when sold out",
+        "features": [
+            "Sweets",
+            "Good Coffee",
+            "Drive"
+        ],
+        "rating": {
+            "work_comfort": 2,
+            "coffee": 4,
+            "vibe": 4
+        },
+        "kazesift_comment": {
+            "ja": "ロンポロのプリンは一度食べる価値あり。ドライブの目的地としても。",
+            "en": "Lompolo's pudding is worth trying once. Good as a drive destination."
+        },
+        "imageUrl": "https://images.unsplash.com/photo-1542318041-949d012423ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        "reviewHighlights": {
+            "ja": [
+                "プリン",
+                "ドライブ",
+                "落ち着く"
+            ],
+            "en": [
+                "Pudding",
+                "Drive",
+                "Relaxing"
+            ]
+        }
+    },
+    {
+        "id": "1711",
+        "name": {
+            "ja": "Dokushoshitsu Poirot (読書室ポワロ)",
+            "en": "Dokushoshitsu Poirot"
+        },
+        "description": {
+            "ja": "豊平公園近くの読書のための喫茶室。静かに本を読みたい時に最適。厚切りのトーストも人気。",
+            "en": "Tea room for reading near Toyohira Park. Perfect when you want to read quietly. Thick toast is also popular."
+        },
+        "area": {
+            "ja": "豊平・平岸エリア",
+            "en": "Toyohira / Hiragishi"
+        },
+        "address": {
+            "ja": "札幌市豊平区平岸4条2丁目3-7",
+            "en": "Hiragishi 4-jo 2-chome, Toyohira-ku, Sapporo"
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Dokushoshitsu+Poirot",
+        "open_hours": "Check Instagram (Irregular)",
+        "features": [
+            "Silence",
+            "Book Cafe",
+            "Sweets",
+            "Food"
+        ],
+        "rating": {
+            "work_comfort": 3,
+            "coffee": 4,
+            "vibe": 5
+        },
+        "kazesift_comment": {
+            "ja": "厚切りピザトーストやハニーバタートーストが絶品。静寂の中で読書に没頭できる。",
+            "en": "Thick pizza toast and honey butter toast are exquisite. Immerse yourself in reading in silence."
+        },
+        "imageUrl": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        "reviewHighlights": {
+            "ja": [
+                "読書",
+                "トースト",
+                "静寂"
+            ],
+            "en": [
+                "Reading",
+                "Toast",
+                "Silence"
+            ]
+        }
+    },
+    {
+        "id": "1712",
+        "name": {
+            "ja": "Kissa Chakkal (喫茶ちゃっかる)",
+            "en": "Kissa Chakkal"
+        },
+        "description": {
+            "ja": "西18丁目駅すぐの喫茶店。懐かしい味わいのナポリタンや定食メニューが楽しめる。",
+            "en": "Kissaten right next to Nishi 18-chome Station. Enjoy nostalgic Napolitan and set meals."
+        },
+        "area": {
+            "ja": "円山・西18丁目エリア",
+            "en": "Maruyama / Nishi 18-chome"
+        },
+        "address": {
+            "ja": "札幌市中央区大通西18丁目2-14",
+            "en": "Odori Nishi 18-chome, Chuo-ku, Sapporo"
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kissa+Chakkal+Sapporo",
+        "open_hours": "11:00 - 21:00 (Sun Closed)",
+        "features": [
+            "Lunch",
+            "Food",
+            "Classic",
+            "Station Near"
+        ],
+        "rating": {
+            "work_comfort": 2,
+            "coffee": 3,
+            "vibe": 4
+        },
+        "kazesift_comment": {
+            "ja": "ナポリタンが美味しい。駅近でふらっと立ち寄れる日常使いしたい喫茶店。",
+            "en": "Napolitan is delicious. A daily-use kissaten near the station to drop by."
+        },
+        "imageUrl": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        "reviewHighlights": {
+            "ja": [
+                "ナポリタン",
+                "定食",
+                "駅近"
+            ],
+            "en": [
+                "Napolitan",
+                "Set Meal",
+                "Near Station"
+            ]
+        }
     }
 ]

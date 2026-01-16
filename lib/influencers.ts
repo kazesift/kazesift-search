@@ -75,7 +75,21 @@ export const influencers: Influencer[] = [
         },
         recommendations: [
             { cafeId: "5" },   // FAbULOUS
-            { cafeId: "1701" } // SPUR
+            { cafeId: "1701" }, // SPUR
+            { cafeId: "1702" }, // Bastille
+            { cafeId: "1703" }, // Sobou
+            { cafeId: "1704" }, // Octafuzz
+            { cafeId: "1705" }, // Dorothy
+            { cafeId: "1706" }, // Brim
+            { cafeId: "1707" }, // Carmel-do
+            { cafeId: "1708" }, // Milk
+            { cafeId: "1709" }, // THE DAY
+            { cafeId: "1710" }, // Lompolo
+            { cafeId: "1711" }, // Poirot
+            { cafeId: "1712" }, // Chakkal
+            { cafeId: "14" },   // Mingus
+            { cafeId: "1301" }, // Roquefort
+            { cafeId: "1601" }  // Komeda (Generic)
         ]
     }
 ];
