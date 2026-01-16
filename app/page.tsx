@@ -235,6 +235,15 @@ function MainContent() {
           <Link href="/about" className="text-[var(--color-secondary)] hover:underline transition-all">
             {t("aboutKazesift")}
           </Link>
+          <span className="mx-2 text-gray-300">|</span>
+          <a
+            href="https://forms.google.com/your-form-id"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[var(--color-secondary)] hover:underline transition-all font-medium"
+          >
+            {t("submitInfo")}
+          </a>
           <div className="mt-4 flex justify-center gap-4 text-xs opacity-60">
             <span>© 2024 Kazesift Search</span>
           </div>

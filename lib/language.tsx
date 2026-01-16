@@ -46,6 +46,7 @@ export const translations = {
         gallery: "ギャラリー",
 
         holiday: "定休日",
+        submitInfo: "情報・写真を投稿する (Google Form)",
         features_view: "眺望",
         tab_all: "すべて",
         tab_high_trust: "失敗しない定番",
@@ -98,6 +99,7 @@ export const translations = {
         userVoice: "What Users Say",
         viewOnGoogleMaps: "Read reviews on Google Maps",
         gallery: "Gallery",
+        submitInfo: "Submit Info / Photos",
         holiday: "Closed / Holiday",
     },
 };
