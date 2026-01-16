@@ -91,6 +91,7 @@ export interface Cafe {
   open_hours: string;
   officialUrl?: string;
   instagramUrl?: string;
+  placeId?: string;
   googleMapRating?: number;
   googleMapReviews?: number;
   googleMapsUrl?: string;
