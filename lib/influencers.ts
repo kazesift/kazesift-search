@@ -89,7 +89,8 @@ export const influencers: Influencer[] = [
             { cafeId: "1712" }, // Chakkal
             { cafeId: "14" },   // Mingus
             { cafeId: "1301" }, // Roquefort
-            { cafeId: "1601" }  // Komeda (Generic)
+            { cafeId: "1601" }, // Komeda (Generic)
+            { cafeId: "1713" }  // trio coffee club
         ]
     }
 ];
