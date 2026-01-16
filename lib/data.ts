@@ -2242,7 +2242,7 @@ export const cafes: Cafe[] = [
             ja: "深夜2時・3時まで営業している貴重なカフェ。柴崎亮太さんが経営を引き継ぎ、新体制でスタート。レンガ造りの落ち着いた空間で、夜遅くまでゆっくり過ごせる。",
             en: "A valuable cafe open until 2:00 or 3:00 AM. Recently taken over by Ryouta Shiba. Enjoy a relaxing time late into the night in this calm brick-style space."
         },
-        imageUrl: "/images/ishiyama-coffee.png",
+        imageUrl: "/images/ishiyama-coffee.jpg",
         rating: { work_comfort: 3, coffee: 4, vibe: 5 },
         kazesift_comment: {
             ja: "「頑張るぞ💪」の意気込みと共に新体制へ。深夜の隠れ家として、これからの進化が楽しみな一軒。",
