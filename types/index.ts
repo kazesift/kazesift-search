@@ -90,6 +90,7 @@ export interface Cafe {
   };
   open_hours: string;
   officialUrl?: string;
+  instagramUrl?: string;
   googleMapRating?: number;
   googleMapReviews?: number;
   googleMapsUrl?: string;

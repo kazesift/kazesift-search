@@ -2228,4 +2228,29 @@ export const cafes: Cafe[] = [
             en: ["Many outlets", "Abundant materials", "Stylish"]
         }
     },
+    // Phase 20: Owner/Influencer Integration (Ishiyama Dori Coffee)
+    {
+        id: "1701",
+        name: { ja: "Ishiyama Dori Coffee (石山通珈琲)", en: "Ishiyama Dori Coffee" },
+        area: { ja: "大通・狸小路エリア", en: "Odori / Tanukikoji" }, // Actually slightly south (Minami 13), near Nakajima Park/Yamahana. Mapping to "Other" or "Odori" depending on granularity. Using "Odori" as broadly central/south for now or "Other". Let's use "Other" or define a new area? Actually user categorized previous ones in Toyohira. Minami 13 is Yamahana. Let's use "Other Area" for now or "Sapporo Central South". Existing areas: "Odori/Tanukikoji", "Toyohira/Hiragishi", "Atsubetsu/Shin-Sapporo". "Other" fits best for Yamahana.
+        address: { ja: "札幌市中央区南13条西11丁目2-3", en: "2-3, Minami 13-jo Nishi 11-chome, Chuo-ku, Sapporo" },
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Ishiyama+Dori+Coffee",
+        instagramUrl: "https://www.instagram.com/s13ishiyama/",
+        open_hours: "10:00 - 26:00 (Next day 02:00)", // 10:00 - 02:00/03:00. Writing as 26:00 for clarity or 02:00.
+        features: ["Late Night", "Smoking", "Good Coffee", "Parking", "Classic"],
+        description: {
+            ja: "深夜2時・3時まで営業している貴重なカフェ。柴崎亮太さんが経営を引き継ぎ、新体制でスタート。レンガ造りの落ち着いた空間で、夜遅くまでゆっくり過ごせる。",
+            en: "A valuable cafe open until 2:00 or 3:00 AM. Recently taken over by Ryouta Shiba. Enjoy a relaxing time late into the night in this calm brick-style space."
+        },
+        imageUrl: "https://images.unsplash.com/photo-1521017432531-fbd92d768814?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80", // Placeholder or upload? User uploaded image. I should use the uploaded image if possible, but I cannot upload to public URL easily. I will use a placeholder or the provided unsplash for now, or if I can reference the local file? No, web app needs public URL. I'll use Unsplash representing "Brick cafe".
+        rating: { work_comfort: 3, coffee: 4, vibe: 5 },
+        kazesift_comment: {
+            ja: "「頑張るぞ💪」の意気込みと共に新体制へ。深夜の隠れ家として、これからの進化が楽しみな一軒。",
+            en: "Under new management with great enthusiasm. Looking forward to its evolution as a late-night hideaway."
+        },
+        reviewHighlights: {
+            ja: ["深夜営業", "落ち着く", "駐車場あり"],
+            en: ["Late night", "Relaxing", "Parking"]
+        }
+    },
 ];

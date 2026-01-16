@@ -180,6 +180,17 @@ export function CafeDetailClient({ id }: { id: string }) {
                                         {t("officialSite")} ↗
                                     </a>
                                 )}
+
+                                {cafe.instagramUrl && (
+                                    <a
+                                        href={cafe.instagramUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="flex items-center justify-center w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white py-3 rounded-xl font-bold shadow-md hover:opacity-90 transition-opacity"
+                                    >
+                                        <span className="mr-2">📸</span> Instagram ↗
+                                    </a>
+                                )}
                             </div>
                         </div>
                     </div>
