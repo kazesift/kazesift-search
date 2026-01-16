@@ -43,6 +43,7 @@ export const translations = {
         googleMaps: "Googleマップの口コミ",
         userVoice: "みんなの声",
         viewOnGoogleMaps: "Googleマップで口コミを見る",
+        gallery: "ギャラリー",
 
         holiday: "定休日",
         features_view: "眺望",
@@ -96,6 +97,7 @@ export const translations = {
         googleMaps: "Google Maps Reviews",
         userVoice: "What Users Say",
         viewOnGoogleMaps: "Read reviews on Google Maps",
+        gallery: "Gallery",
         holiday: "Closed / Holiday",
     },
 };

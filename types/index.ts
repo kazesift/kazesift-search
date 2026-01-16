@@ -78,6 +78,7 @@ export interface Cafe {
     en: string;
   };
   imageUrl: string;
+  galleryImages?: string[];
   features: Feature[];
   rating: {
     work_comfort: number; // 1-5

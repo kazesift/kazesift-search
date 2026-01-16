@@ -81,6 +81,24 @@ export function CafeDetailClient({ id }: { id: string }) {
                             <p className="leading-relaxed text-gray-700">{cafe.kazesift_comment[language]}</p>
                         </div>
 
+                        {/* Gallery Section */}
+                        {cafe.galleryImages && cafe.galleryImages.length > 0 && (
+                            <div className="mb-8">
+                                <h2 className="text-xl font-bold text-gray-800 mb-4">{t("gallery")}</h2>
+                                <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+                                    {cafe.galleryImages.map((img, index) => (
+                                        <div key={index} className="relative aspect-square rounded-lg overflow-hidden shadow-sm">
+                                            <img
+                                                src={img}
+                                                alt={`${cafe.name[language]} - ${index + 1}`}
+                                                className="object-cover w-full h-full hover:scale-105 transition-transform duration-300"
+                                            />
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        )}
+
                         {/* Description */}
                         <div className="space-y-4">
                             <h3 className="text-xl font-bold border-b pb-2">About</h3>
