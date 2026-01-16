@@ -201,10 +201,10 @@ function MainContent() {
             ))}
           </div>
         ) : (
-          <div className="h-[600px] w-full rounded-xl overflow-hidden shadow-lg border border-gray-200 relative">
+          <div className="h-[500px] md:h-[600px] w-full rounded-xl overflow-hidden shadow-lg border border-gray-200 relative isolate z-0 bg-gray-100">
             <MapWrapper cafes={filteredCafes} />
             {/* Map Legend Overlay */}
-            <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur p-3 rounded-lg shadow-md text-xs z-[400]">
+            <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur p-3 rounded-lg shadow-md text-xs z-[1000]">
               <div className="font-bold mb-1">Map Info</div>
               <div>📍 Default Pin: Cafe Location</div>
               <div className="text-gray-500 mt-1">(Locations are approximate demo)</div>
