@@ -109,7 +109,7 @@ export function CafeDetailClient({ id }: { id: string }) {
                         {/* Description */}
                         <div className="space-y-4">
                             <h3 className="text-xl font-bold border-b pb-2">About</h3>
-                            <p className="text-gray-600 leading-relaxed">{cafe.description[language]}</p>
+                            <p className="text-gray-600 leading-relaxed whitespace-pre-wrap">{cafe.description[language]}</p>
                         </div>
 
                         {/* Ratings */}
