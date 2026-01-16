@@ -244,7 +244,17 @@ function MainContent() {
           >
             {t("submitInfo")}
           </a>
-          <div className="mt-4 flex justify-center gap-4 text-xs opacity-60">
+          <span className="mx-2 text-gray-300">|</span>
+          <a
+            href="https://github.com/kazesift/kazesift-search"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-500 hover:underline transition-all font-medium text-xs bg-gray-100 px-2 py-1 rounded-full"
+          >
+            <span className="mr-1">🧑‍💻</span>
+            {t("sourceCode")}
+          </a>
+          <div className="mt-8 text-center text-gray-400 text-sm">
             <span>© 2024 Kazesift Search</span>
           </div>
         </div>
