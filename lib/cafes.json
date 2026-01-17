@@ -6067,176 +6067,184 @@
                 "Set Meal",
                 "Near Station"
             ]
-        }
+        },
+        {
+            "id": "1801",
+            "name": {
+                "ja": "KEN'S CAFE 札幌 琴似",
+                "en": "KEN'S CAFE Sapporo Kotoni"
+            },
+            "area": {
+                "ja": "琴似・西区",
                 "en": "Kotoni / Nishi-ku"
-    },
-    "description": {
-        "ja": "琴似駅から徒歩数分の場所にある、落ち着いた雰囲気のカフェ。Wi-Fiと電源が完備されており、作業や勉強に最適です。夜遅くまで営業しているのも嬉しいポイント。",
-        "en": "A calm cafe located just a few minutes walk from Kotoni Station. Equipped with Wi-Fi and power outlets, making it perfect for work or study. Also open late at night."
-    },
-    "features": [
-        "Wi-Fi",
-        "Power",
-        "Good Coffee",
-        "Late Night"
-    ],
-    "rating": {
-        "work_comfort": 5,
-        "coffee": 4,
-        "vibe": 4
-    },
-    "imageUrl": "/images/placeholder_cafe.jpg",
-    "instagramUrl": "https://www.instagram.com/kenscafe_sapporo/",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=KEN'S+CAFE+札幌+琴似",
-    "address": {
-        "ja": "札幌市西区琴似1条6丁目4-18 SHIBA Bild.2nd 1F",
-        "en": "1F SHIBA Bild.2nd, 4-18, Kotoni 1-jo 6-chome, Nishi-ku, Sapporo"
-    },
-    "open_hours": "10:00 - 22:00 (Fri/Sat - 23:00)",
-    "holidayStr": {
-        "ja": "12/31",
-        "en": "Dec 31"
-    },
-    "kazesift_comment": {
-        "ja": "琴似エリアの作業カフェといえばここ。電源確保がしやすく、長居しやすい雰囲気が魅力です。",
-        "en": "The go-to work cafe in the Kotoni area. Easy to find power outlets and has a welcoming atmosphere for long stays."
-    },
-    "googleMapRating": 4.2,
-    "googleMapReviews": 120
-},
-{
-    "id": "1802",
-    "name": {
-        "ja": "シロクマ三日月珈琲",
-        "en": "Shirokuma Mikazuki Coffee"
-    },
-    "area": {
-        "ja": "琴似・宮の沢",
-        "en": "Kotoni / Miyanosawa"
-    },
-    "description": {
-        "ja": "地下鉄宮の沢駅近くにあるお洒落なカフェ。カウンター席にはコンセントとUSB電源が完備されており、PC作業におすすめ。自家焙煎珈琲も楽しめます。",
-        "en": "A stylish cafe near Miyanosawa Subway Station. Counter seats are equipped with outlets and USB ports, highly recommended for PC work. Enjoy their home-roasted coffee."
-    },
-    "features": [
-        "Wi-Fi",
-        "Power",
-        "Good Coffee",
-        "Sweets"
-    ],
-    "rating": {
-        "work_comfort": 4,
-        "coffee": 5,
-        "vibe": 4
-    },
-    "imageUrl": "/images/placeholder_cafe.jpg",
-    "instagramUrl": "",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=シロクマ三日月珈琲",
-    "address": {
-        "ja": "札幌市西区発寒6条9丁目1-10 ペルル宮の沢1F",
-        "en": "1F Perle Miyanosawa, 1-10, Hassamu 6-jo 9-chome, Nishi-ku, Sapporo"
-    },
-    "open_hours": "11:00 - 18:00",
-    "holidayStr": {
-        "ja": "不定休",
-        "en": "Irregular"
-    },
-    "kazesift_comment": {
-        "ja": "カウンター席の電源環境が充実しています（USBあり）。宮の沢エリアでの作業に重宝します。",
-        "en": "The counter seats have excellent power options (including USB). Very useful for working in the Miyanosawa area."
-    },
-    "googleMapRating": 4.1,
-    "googleMapReviews": 85
-},
-{
-    "id": "1803",
-    "name": {
-        "ja": "プロヴィンシャルノート",
-        "en": "Provincial Note"
-    },
-    "area": {
-        "ja": "琴似・八軒",
-        "en": "Kotoni / Hachiken"
-    },
-    "description": {
-        "ja": "アンティーク調の家具が並ぶ、ヨーロピアンな雰囲気のカフェ。駐車場があり、ランチメニューも充実。優雅な気分で作業や読書を楽しめます。",
-        "en": "A European-style cafe lined with antique furniture. Has parking and a substantial lunch menu. Enjoy work or reading in an elegant atmosphere."
-    },
-    "features": [
-        "Parking",
-        "Lunch",
-        "Sweets",
-        "Good Coffee"
-    ],
-    "rating": {
-        "work_comfort": 3,
-        "coffee": 4,
-        "vibe": 5
-    },
-    "imageUrl": "/images/placeholder_cafe.jpg",
-    "instagramUrl": "",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=プロヴィンシャルノート",
-    "address": {
-        "ja": "札幌市西区八軒1条西1丁目1-22",
-        "en": "1-22, Hachiken 1-jo Nishi 1-chome, Nishi-ku, Sapporo"
-    },
-    "open_hours": "11:00 - 19:00",
-    "holidayStr": {
-        "ja": "月曜",
-        "en": "Monday"
-    },
-    "kazesift_comment": {
-        "ja": "車で行ける貴重なお洒落カフェ。アンティークな内装が素晴らしく、クリエイティブな作業が捗りそうです。",
-        "en": "A rare stylish cafe you can drive to. The antique interior is wonderful, inspiring creative work."
-    },
-    "googleMapRating": 4.3,
-    "googleMapReviews": 210
-},
-{
-    "id": "1804",
-    "name": {
-        "ja": "むさしの森珈琲 札幌二十四軒店",
-        "en": "Musashi no Mori Coffee Sapporo Nijuyonken"
-    },
-    "area": {
-        "ja": "二十四軒・琴似",
-        "en": "Nijuyonken / Kotoni"
-    },
-    "description": {
-        "ja": "琴似・二十四軒エリアにある大型カフェ。駐車場完備、Wi-Fi・電源ありで、早朝から夜まで営業。安定した環境で長時間作業したい時に最適です。",
-        "en": "A large cafe in the Kotoni/Nijuyonken area. Complete with parking, Wi-Fi, and power outlets. Open from early morning to night. Perfect for long work sessions in a stable environment."
-    },
-    "features": [
-        "Wi-Fi",
-        "Power",
-        "Parking",
-        "Morning",
-        "Late Night",
-        "Free",
-        "Refill Coffee"
-    ],
-    "rating": {
-        "work_comfort": 5,
-        "coffee": 3,
-        "vibe": 3
-    },
-    "imageUrl": "/images/placeholder_cafe.jpg",
-    "instagramUrl": "",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=むさしの森珈琲+札幌二十四軒店",
-    "address": {
-        "ja": "札幌市西区二十四軒3条1丁目2-26",
-        "en": "2-26, Nijuyonken 3-jo 1-chome, Nishi-ku, Sapporo"
-    },
-    "open_hours": "07:00 - 22:00",
-    "holidayStr": {
-        "ja": "無休",
-        "en": "None"
-    },
-    "kazesift_comment": {
-        "ja": "「絶対に座れて電源がある場所に行きたい」時の頼れる味方。駐車場も広く、車移動派には最強の拠点です。",
-        "en": "A reliable ally when you 'absolutely need a seat and power'. The large parking lot makes it the best base for drivers."
-    },
-    "googleMapRating": 4.0,
-    "googleMapReviews": 450
-}
-]
+            },
+            "description": {
+                "ja": "琴似駅から徒歩数分の場所にある、落ち着いた雰囲気のカフェ。Wi-Fiと電源が完備されており、作業や勉強に最適です。夜遅くまで営業しているのも嬉しいポイント。",
+                "en": "A calm cafe located just a few minutes walk from Kotoni Station. Equipped with Wi-Fi and power outlets, making it perfect for work or study. Also open late at night."
+            },
+            "features": [
+                "Wi-Fi",
+                "Power",
+                "Good Coffee",
+                "Late Night"
+            ],
+            "rating": {
+                "work_comfort": 5,
+                "coffee": 4,
+                "vibe": 4
+            },
+            "imageUrl": "/images/placeholder_cafe.jpg",
+            "instagramUrl": "https://www.instagram.com/kenscafe_sapporo/",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=KEN'S+CAFE+札幌+琴似",
+            "address": {
+                "ja": "札幌市西区琴似1条6丁目4-18 SHIBA Bild.2nd 1F",
+                "en": "1F SHIBA Bild.2nd, 4-18, Kotoni 1-jo 6-chome, Nishi-ku, Sapporo"
+            },
+            "open_hours": "10:00 - 22:00 (Fri/Sat - 23:00)",
+            "holidayStr": {
+                "ja": "12/31",
+                "en": "Dec 31"
+            },
+            "kazesift_comment": {
+                "ja": "琴似エリアの作業カフェといえばここ。電源確保がしやすく、長居しやすい雰囲気が魅力です。",
+                "en": "The go-to work cafe in the Kotoni area. Easy to find power outlets and has a welcoming atmosphere for long stays."
+            },
+            "googleMapRating": 4.2,
+            "googleMapReviews": 120
+        },
+        {
+            "id": "1802",
+            "name": {
+                "ja": "シロクマ三日月珈琲",
+                "en": "Shirokuma Mikazuki Coffee"
+            },
+            "area": {
+                "ja": "琴似・宮の沢",
+                "en": "Kotoni / Miyanosawa"
+            },
+            "description": {
+                "ja": "地下鉄宮の沢駅近くにあるお洒落なカフェ。カウンター席にはコンセントとUSB電源が完備されており、PC作業におすすめ。自家焙煎珈琲も楽しめます。",
+                "en": "A stylish cafe near Miyanosawa Subway Station. Counter seats are equipped with outlets and USB ports, highly recommended for PC work. Enjoy their home-roasted coffee."
+            },
+            "features": [
+                "Wi-Fi",
+                "Power",
+                "Good Coffee",
+                "Sweets"
+            ],
+            "rating": {
+                "work_comfort": 4,
+                "coffee": 5,
+                "vibe": 4
+            },
+            "imageUrl": "/images/placeholder_cafe.jpg",
+            "instagramUrl": "",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=シロクマ三日月珈琲",
+            "address": {
+                "ja": "札幌市西区発寒6条9丁目1-10 ペルル宮の沢1F",
+                "en": "1F Perle Miyanosawa, 1-10, Hassamu 6-jo 9-chome, Nishi-ku, Sapporo"
+            },
+            "open_hours": "11:00 - 18:00",
+            "holidayStr": {
+                "ja": "不定休",
+                "en": "Irregular"
+            },
+            "kazesift_comment": {
+                "ja": "カウンター席の電源環境が充実しています（USBあり）。宮の沢エリアでの作業に重宝します。",
+                "en": "The counter seats have excellent power options (including USB). Very useful for working in the Miyanosawa area."
+            },
+            "googleMapRating": 4.1,
+            "googleMapReviews": 85
+        },
+        {
+            "id": "1803",
+            "name": {
+                "ja": "プロヴィンシャルノート",
+                "en": "Provincial Note"
+            },
+            "area": {
+                "ja": "琴似・八軒",
+                "en": "Kotoni / Hachiken"
+            },
+            "description": {
+                "ja": "アンティーク調の家具が並ぶ、ヨーロピアンな雰囲気のカフェ。駐車場があり、ランチメニューも充実。優雅な気分で作業や読書を楽しめます。",
+                "en": "A European-style cafe lined with antique furniture. Has parking and a substantial lunch menu. Enjoy work or reading in an elegant atmosphere."
+            },
+            "features": [
+                "Parking",
+                "Lunch",
+                "Sweets",
+                "Good Coffee"
+            ],
+            "rating": {
+                "work_comfort": 3,
+                "coffee": 4,
+                "vibe": 5
+            },
+            "imageUrl": "/images/placeholder_cafe.jpg",
+            "instagramUrl": "",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=プロヴィンシャルノート",
+            "address": {
+                "ja": "札幌市西区八軒1条西1丁目1-22",
+                "en": "1-22, Hachiken 1-jo Nishi 1-chome, Nishi-ku, Sapporo"
+            },
+            "open_hours": "11:00 - 19:00",
+            "holidayStr": {
+                "ja": "月曜",
+                "en": "Monday"
+            },
+            "kazesift_comment": {
+                "ja": "車で行ける貴重なお洒落カフェ。アンティークな内装が素晴らしく、クリエイティブな作業が捗りそうです。",
+                "en": "A rare stylish cafe you can drive to. The antique interior is wonderful, inspiring creative work."
+            },
+            "googleMapRating": 4.3,
+            "googleMapReviews": 210
+        },
+        {
+            "id": "1804",
+            "name": {
+                "ja": "むさしの森珈琲 札幌二十四軒店",
+                "en": "Musashi no Mori Coffee Sapporo Nijuyonken"
+            },
+            "area": {
+                "ja": "二十四軒・琴似",
+                "en": "Nijuyonken / Kotoni"
+            },
+            "description": {
+                "ja": "琴似・二十四軒エリアにある大型カフェ。駐車場完備、Wi-Fi・電源ありで、早朝から夜まで営業。安定した環境で長時間作業したい時に最適です。",
+                "en": "A large cafe in the Kotoni/Nijuyonken area. Complete with parking, Wi-Fi, and power outlets. Open from early morning to night. Perfect for long work sessions in a stable environment."
+            },
+            "features": [
+                "Wi-Fi",
+                "Power",
+                "Parking",
+                "Morning",
+                "Late Night",
+                "Free",
+                "Refill Coffee"
+            ],
+            "rating": {
+                "work_comfort": 5,
+                "coffee": 3,
+                "vibe": 3
+            },
+            "imageUrl": "/images/placeholder_cafe.jpg",
+            "instagramUrl": "",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=むさしの森珈琲+札幌二十四軒店",
+            "address": {
+                "ja": "札幌市西区二十四軒3条1丁目2-26",
+                "en": "2-26, Nijuyonken 3-jo 1-chome, Nishi-ku, Sapporo"
+            },
+            "open_hours": "07:00 - 22:00",
+            "holidayStr": {
+                "ja": "無休",
+                "en": "None"
+            },
+            "kazesift_comment": {
+                "ja": "「絶対に座れて電源がある場所に行きたい」時の頼れる味方。駐車場も広く、車移動派には最強の拠点です。",
+                "en": "A reliable ally when you 'absolutely need a seat and power'. The large parking lot makes it the best base for drivers."
+            },
+            "googleMapRating": 4.0,
+            "googleMapReviews": 450
+        }
+    ]
