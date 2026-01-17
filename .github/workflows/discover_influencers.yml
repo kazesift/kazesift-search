@@ -1,0 +1,53 @@
+name: Discover Threads Influencers
+
+on:
+  schedule:
+    # Run every Friday at 10:00 AM JST (01:00 UTC)
+    - cron: '0 1 * * 5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run discovery script
+        env:
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+          GOOGLE_SEARCH_ENGINE_ID: ${{ secrets.GOOGLE_SEARCH_ENGINE_ID }}
+        run: python scripts/discover_influencers.py
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code lib/influencers.json || echo "changes_detected=true" >> $GITHUB_OUTPUT
+
+      - name: Create Pull Request
+        if: steps.git-check.outputs.changes_detected == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "feat: add new potential influencers from threads"
+          title: "🤖 New Threads Influencers Discovered"
+          body: |
+            AI has discovered new potential Sapporo Cafe influencers on Threads!
+            
+            Please review the changes in [lib/influencers.json](cci:7://file:///Users/d/AI/kazesift-search/lib/influencers.json:0:0-0:0).
+            If they look good, merge this PR to add them to the site.
+          branch: "ai/influencer-discovery"
+          base: "main"
